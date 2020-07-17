@@ -1,6 +1,7 @@
 package com.seleniumMantis.utils;
 
 import java.sql.*;
+import java.sql.Connection;
 import java.util.ArrayList;
 
 public class DbUtils {
@@ -10,9 +11,9 @@ public class DbUtils {
         Connection connection = null;
 
         try {
-            Class.forName("UTILIZAR O DRIVER DO BANCO DE DADOS DA APLICAÇÃO");
+            Class.forName("com.mysql.jdbc.Driver");
             Statement stmt = null;
-            connection = DriverManager.getConnection("utilizar os parãmetros globais para montar a string de conexão de acordo com db utilizado");
+            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/bugtracker?useTimezone=true&serverTimezone=UTC","root","");
 
             stmt = connection.createStatement();
             ResultSet rs = stmt.executeQuery(query);
