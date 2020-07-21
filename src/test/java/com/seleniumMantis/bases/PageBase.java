@@ -16,6 +16,7 @@ public class PageBase {
     protected WebDriver driver = null;
     protected JavascriptExecutor javaScriptExecutor = null;
 
+
     //Construtor
     public PageBase(){
         wait = new WebDriverWait (DriverFactory.INSTANCE, GlobalParameters.TIMEOUT_DEFAULT);

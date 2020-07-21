@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public class DbUtils {
 
-    public static ArrayList<String> getQueryResult(String query){
+    public static ArrayList<String> retornaDadosQuery(String query){
         ArrayList<String> arrayList = null;
         Connection connection = null;
 
@@ -50,13 +50,13 @@ public class DbUtils {
         return arrayList;
     }
 
-    public static void executeQuery(String query){
+    public static void executaQuery(String query){
         Connection connection = null;
 
         try {
-            Class.forName("UTILIZAR O DRIVER DO BANCO DE DADOS DA APLICAÇÃO");
+            Class.forName("com.mysql.jdbc.Driver");
             Statement stmt = null;
-            connection = DriverManager.getConnection("utilizar os parãmetros globais para montar a string de conexão de acordo com db utilizado");
+            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/bugtracker?useTimezone=true&serverTimezone=UTC","root","");
 
             stmt = connection.createStatement();
             stmt.executeQuery(query);

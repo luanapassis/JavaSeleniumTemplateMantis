@@ -3,6 +3,7 @@ package com.seleniumMantis.bases;
 import com.seleniumMantis.GlobalParameters;
 import com.seleniumMantis.utils.DriverFactory;
 import com.seleniumMantis.utils.ExtentReportUtils;
+import com.seleniumMantis.dbSteps.DataBaseSteps;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
@@ -17,6 +18,12 @@ public class TestBase {
     {
         new GlobalParameters();
         ExtentReportUtils.createReport();
+        DataBaseSteps db = new DataBaseSteps();
+
+        //cargas de usuário, projeto e marcadores a cada execução da suite
+        db.cargaUsuario();
+        db.cargaProjeto();
+        db.cargaMarcadores();
     }
 
     @BeforeMethod
@@ -26,13 +33,19 @@ public class TestBase {
         DriverFactory.createInstance();
         DriverFactory.INSTANCE.manage().window().maximize();
         DriverFactory.INSTANCE.navigate().to(GlobalParameters.URL_DEFAULT);
+
+        //cargas de atualização a cada novo teste
+        DataBaseSteps db = new DataBaseSteps();
+        db.atualizacaoCargaUsuario();
+        db.atualizacaoCargaProjeto();
+        db.atualizacaoCargaMarcadores();
     }
 
     @AfterMethod
     public void afterTest(ITestResult result)
     {
         ExtentReportUtils.addTestResult(result);
-        //DriverFactory.quitInstace();
+        DriverFactory.quitInstace();
     }
 
     @AfterSuite

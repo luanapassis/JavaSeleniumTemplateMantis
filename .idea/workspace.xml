@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afa8f791-4a86-4682-906d-11a53c519619" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/dbSteps/DataBaseSteps.java" afterDir="false" />
+    <list default="true" id="afa8f791-4a86-4682-906d-11a53c519619" name="Default Changelist" comment="incluindo datadriven">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/page/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/utils/ReadExcelFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/globalParameters.properties" beforeDir="false" afterPath="$PROJECT_DIR$/globalParameters.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/bases/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/bases/PageBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/bases/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/bases/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/dbSteps/DataBaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/dbSteps/DataBaseSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/page/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/utils/DbUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/utils/DbUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/bases/PageBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/bases/PageBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/bases/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/bases/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/dbSteps/DataBaseSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/dbSteps/DataBaseSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/page/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/page/LoginPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/tests/LoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/tests/LoginTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/utils/DbUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/utils/DbUtils.class" afterDir="false" />
     </list>
@@ -30,6 +38,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="TestNG" name="LoginTests.Test_fazLoginUtilizandoJavaScritp" />
+    </enabled-run-configurations>
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -41,6 +54,11 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Base2\Desktop\Ole\mantisJavaTemplate\src\test" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -54,106 +72,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTests.efetuarLoginComSucesso (4)">
-    <configuration name="LoginTests.efetuarLoginComSucesso (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="LoginSuite" type="TestNG">
       <module name="mantisJavaTemplate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.seleniumMantis.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="com.seleniumMantis.tests" />
       <option name="MAIN_CLASS_NAME" value="com.seleniumMantis.tests.LoginTests" />
-      <option name="METHOD_NAME" value="efetuarLoginComSucesso" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTests.efetuarLoginComSucesso (3)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mantisJavaTemplate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.seleniumMantis.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.seleniumMantis.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.seleniumMantis.tests.LoginTests" />
-      <option name="METHOD_NAME" value="efetuarLoginComSucesso" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTests.efetuarLoginComSucesso (4)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mantisJavaTemplate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.seleniumMantis.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.seleniumMantis.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.seleniumMantis.tests.LoginTests" />
-      <option name="METHOD_NAME" value="efetuarLoginComSucesso" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTests.efetuarLoginComSucesso" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mantisJavaTemplate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.seleniumMantis.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.seleniumMantis.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.seleniumMantis.tests.LoginTests" />
-      <option name="METHOD_NAME" value="efetuarLoginComSucesso" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTests.efetuarLoginSenhaIncorreta (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mantisJavaTemplate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.seleniumMantis.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.seleniumMantis.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.seleniumMantis.tests.LoginTests" />
-      <option name="METHOD_NAME" value="efetuarLoginSenhaIncorreta" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="TestNG.LoginTests.efetuarLoginComSucesso (4)" />
-        <item itemvalue="TestNG.LoginTests.efetuarLoginComSucesso" />
-        <item itemvalue="TestNG.LoginTests.efetuarLoginSenhaIncorreta (1)" />
-        <item itemvalue="TestNG.LoginTests.efetuarLoginComSucesso (3)" />
-        <item itemvalue="TestNG.LoginTests.efetuarLoginComSucesso (2)" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -181,23 +119,62 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="incluindo datadriven" />
+    <option name="LAST_COMMIT_MESSAGE" value="incluindo datadriven" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java</url>
-          <line>32</line>
+          <line>21</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="3" />
+          <line>55</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="6" />
+          <line>102</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/utils/ReadExcelFile.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java</url>
+          <line>144</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
