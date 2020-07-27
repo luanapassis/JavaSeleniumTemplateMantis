@@ -1,6 +1,7 @@
 package com.seleniumMantis.utils;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.ITestResult;
@@ -12,6 +13,8 @@ import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Random;
+import java.util.concurrent.ThreadLocalRandom;
 
 public class Utils {
 
@@ -73,4 +76,16 @@ public class Utils {
 
         return sb.toString();
     }
+    public static String returnStringWithRandomCharacters(int size)
+    {
+        String generatedString = RandomStringUtils.randomAlphabetic(size);
+        return generatedString;
+    }
+
+    public static String returnStringWithRandomNumbers(int size)
+    {
+        String generatedString = RandomStringUtils.randomNumeric(size);
+        return  generatedString;
+    }
+
 }

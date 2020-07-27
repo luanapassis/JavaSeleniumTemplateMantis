@@ -1,17 +1,13 @@
     package com.seleniumMantis.tests;
 
     import com.sun.org.glassfish.gmbal.Description;
-    import org.apache.poi.ss.usermodel.DataFormatter;
     import org.testng.Assert;
     import org.testng.annotations.DataProvider;
     import org.testng.annotations.Test;
     import com.seleniumMantis.bases.*;
     import com.seleniumMantis.page.*;
     import com.seleniumMantis.utils.ReadExcelFile;
-    import com.seleniumMantis.dbSteps.DataBaseSteps;
-    import org.testng.annotations.DataProvider;
-    import org.testng.annotations.*;
-    import java.util.ArrayList;
+
 
     public class LoginTests extends TestBase {
         //Objects
@@ -32,7 +28,6 @@
             loginPage.clicarEmLogin();
             loginPage.preencherSenha(senha);
             loginPage.clicarEmLogin();
-
             String usuLogado = homePage.retornaUsuLogado();
             Assert.assertEquals(usuLogado , usuario, "Usuário não logado.");
         }
@@ -53,7 +48,7 @@
             loginPage.preencherSenha(senha);
             loginPage.clicarEmLogin();
             String msgErroLogin = loginPage.retornarMensagemDeErro();
-            Assert.assertTrue(msg.contains(msgErroLogin));
+            Assert.assertEquals(msgErroLogin, msg);
         }
         @Test
         @Description("Realizar o login com senha incorreta")
@@ -71,7 +66,7 @@
             loginPage.preencherSenha(senha);
             loginPage.clicarEmLogin();
             String msgErroLogin = loginPage.retornarMensagemDeErro();
-            Assert.assertTrue(msg.contains(msgErroLogin));
+            Assert.assertEquals(msgErroLogin, msg);
         }
 
         @Test
@@ -90,7 +85,7 @@
             loginPage.preencherSenha(senha);
             loginPage.clicarEmLogin();
             String msgErroLogin = loginPage.retornarMensagemDeErro();
-            Assert.assertTrue(msg.contains(msgErroLogin));
+            Assert.assertEquals(msgErroLogin, msg);
         }
 
         @Test

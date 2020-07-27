@@ -159,7 +159,20 @@ public class PageBase {
         ExtentReportUtils.addTestInfo(3, "RETURN: " + text);
         return text;
     }
+    protected boolean returnIfElementsAreDisplayed(By locator)
+    {
+        wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(locator));
+        boolean result = driver.findElement(locator).isDisplayed();
+        ExtentReportUtils.addTestInfo(3, "RETURN: " + result);
+        return result;
+        /*
+        wait.Until(ExpectedConditions.PresenceOfAllElementsLocatedBy(locator));
+        bool result = driver.FindElement(locator).Displayed;
+        Reporter.AddTestInfo(3, "RETURN: " + result);
+        return result;
 
+         */
+    }
     protected boolean returnIfElementIsDisplayed(By locator){
         boolean result = waitForElement(locator).isDisplayed();
         ExtentReportUtils.addTestInfo(3, "RETURN: " + result);

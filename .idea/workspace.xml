@@ -1,23 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afa8f791-4a86-4682-906d-11a53c519619" name="Default Changelist" comment="incluindo datadriven">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/page/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/utils/ReadExcelFile.java" afterDir="false" />
+    <list default="true" id="afa8f791-4a86-4682-906d-11a53c519619" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/flows/LoginFlow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/page/GerenciarMarcadoresPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/page/GerenciarProjetoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/page/GerenciarUsuarioPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/page/MinhaVisaoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/page/TarefasPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/page/VerTarefasPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/GerenciarTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/ProjetoTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/TarefasTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/preTests/PreTestMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/globalParameters.properties" beforeDir="false" afterPath="$PROJECT_DIR$/globalParameters.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/GlobalParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/GlobalParameters.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/bases/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/bases/PageBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/bases/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/bases/TestBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/dbSteps/DataBaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/dbSteps/DataBaseSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/page/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/utils/DbUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/utils/DbUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/utils/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/GlobalParameters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/GlobalParameters.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/bases/PageBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/bases/PageBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/bases/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/bases/TestBase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/dbSteps/DataBaseSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/dbSteps/DataBaseSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/page/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/page/LoginPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/tests/LoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/tests/LoginTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/utils/DbUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/utils/DbUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/utils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/utils/Utils.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,11 +48,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="TestNG" name="LoginTests.Test_fazLoginUtilizandoJavaScritp" />
-    </enabled-run-configurations>
-  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -53,7 +58,7 @@
   <component name="ProjectId" id="1ekJVrSMI6QoXBCAGfaEwrIiNsw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -72,7 +77,61 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.Geral">
+    <configuration name="Geral" type="TestNG">
+      <module name="mantisJavaTemplate" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.seleniumMantis.tests" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GerenciarSuite" type="TestNG">
+      <module name="mantisJavaTemplate" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.seleniumMantis.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.seleniumMantis.tests.GerenciarTests" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GerenciarTests.Test_verificaTrocaPerfilAdministrador" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mantisJavaTemplate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.seleniumMantis.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.seleniumMantis.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.seleniumMantis.tests.GerenciarTests" />
+      <option name="METHOD_NAME" value="Test_verificaTrocaPerfilAdministrador" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginSuite" type="TestNG">
       <module name="mantisJavaTemplate" />
       <option name="SUITE_NAME" value="" />
@@ -92,6 +151,137 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProjetoSuite" type="TestNG">
+      <module name="mantisJavaTemplate" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.seleniumMantis.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.seleniumMantis.tests.ProjetoTests" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TarefasSuite" type="TestNG">
+      <module name="mantisJavaTemplate" />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="com.seleniumMantis.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.seleniumMantis.tests.TarefasTests" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TarefasTests.Test_adicionaRelacaoDuplicadaSucesso" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mantisJavaTemplate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.seleniumMantis.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.seleniumMantis.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.seleniumMantis.tests.TarefasTests" />
+      <option name="METHOD_NAME" value="Test_adicionaRelacaoDuplicadaSucesso" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TarefasTests.Test_adicionaRelacaoFilhoSucesso" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mantisJavaTemplate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.seleniumMantis.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.seleniumMantis.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.seleniumMantis.tests.TarefasTests" />
+      <option name="METHOD_NAME" value="Test_adicionaRelacaoFilhoSucesso" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TarefasTests.Test_adicionaRelacaoPaiSucesso" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mantisJavaTemplate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.seleniumMantis.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.seleniumMantis.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.seleniumMantis.tests.TarefasTests" />
+      <option name="METHOD_NAME" value="Test_adicionaRelacaoPaiSucesso" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TarefasTests.Test_adicionaRelacaoPossuiDuplicidadeSucesso" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mantisJavaTemplate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.seleniumMantis.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.seleniumMantis.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.seleniumMantis.tests.TarefasTests" />
+      <option name="METHOD_NAME" value="Test_adicionaRelacaoPossuiDuplicidadeSucesso" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.Geral" />
+      <item itemvalue="TestNG.LoginSuite" />
+      <item itemvalue="TestNG.ProjetoSuite" />
+      <item itemvalue="TestNG.TarefasSuite" />
+      <item itemvalue="TestNG.GerenciarSuite" />
+      <item itemvalue="TestNG.TarefasTests.Test_adicionaRelacaoDuplicadaSucesso" />
+      <item itemvalue="TestNG.TarefasTests.Test_adicionaRelacaoPaiSucesso" />
+      <item itemvalue="TestNG.TarefasTests.Test_adicionaRelacaoPossuiDuplicidadeSucesso" />
+      <item itemvalue="TestNG.TarefasTests.Test_adicionaRelacaoFilhoSucesso" />
+      <item itemvalue="TestNG.GerenciarTests.Test_verificaTrocaPerfilAdministrador" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.GerenciarTests.Test_verificaTrocaPerfilAdministrador" />
+        <item itemvalue="TestNG.TarefasTests.Test_adicionaRelacaoFilhoSucesso" />
+        <item itemvalue="TestNG.TarefasTests.Test_adicionaRelacaoPossuiDuplicidadeSucesso" />
+        <item itemvalue="TestNG.TarefasTests.Test_adicionaRelacaoPaiSucesso" />
+        <item itemvalue="TestNG.TarefasTests.Test_adicionaRelacaoDuplicadaSucesso" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -104,6 +294,14 @@
       <option name="presentableId" value="Default" />
       <updated>1594859683464</updated>
     </task>
+    <task id="LOCAL-00001" summary="incluindo datadriven">
+      <created>1595295941233</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595295941234</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,42 +326,37 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java</url>
-          <line>21</line>
+          <line>17</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java</url>
-          <line>102</line>
+          <line>97</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java</url>
-          <line>105</line>
+          <line>100</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java</url>
-          <line>132</line>
+          <line>127</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java</url>
-          <line>120</line>
+          <line>115</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java</url>
-          <line>121</line>
+          <line>116</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java</url>
-          <line>122</line>
+          <line>117</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -173,10 +366,225 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java</url>
-          <line>144</line>
+          <line>139</line>
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/GerenciarTests.java</url>
+          <line>219</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/GerenciarTests.java</url>
+          <line>217</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/GerenciarTests.java</url>
+          <line>216</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/GerenciarTests.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/GerenciarTests.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/dbSteps/DataBaseSteps.java</url>
+          <line>141</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/GerenciarTests.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/GerenciarTests.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/GerenciarTests.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/GerenciarTests.java</url>
+          <line>203</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/GerenciarTests.java</url>
+          <line>205</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/GerenciarTests.java</url>
+          <line>402</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/GerenciarTests.java</url>
+          <line>403</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/GerenciarTests.java</url>
+          <line>404</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/GerenciarTests.java</url>
+          <line>570</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/GerenciarTests.java</url>
+          <line>566</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/GerenciarTests.java</url>
+          <line>567</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/GerenciarTests.java</url>
+          <line>465</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/GerenciarTests.java</url>
+          <line>471</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/ProjetoTests.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/TarefasTests.java</url>
+          <line>115</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/TarefasTests.java</url>
+          <line>119</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/TarefasTests.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/page/VerTarefasPage.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/TarefasTests.java</url>
+          <line>310</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/TarefasTests.java</url>
+          <line>311</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/TarefasTests.java</url>
+          <line>247</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/TarefasTests.java</url>
+          <line>241</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/TarefasTests.java</url>
+          <line>254</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/ProjetoTests.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/ProjetoTests.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/TarefasTests.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/TarefasTests.java</url>
+          <line>348</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/TarefasTests.java</url>
+          <line>344</line>
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/TarefasTests.java</url>
+          <line>345</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/TarefasTests.java</url>
+          <line>346</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/TarefasTests.java</url>
+          <line>351</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/TarefasTests.java</url>
+          <line>285</line>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/TarefasTests.java</url>
+          <line>228</line>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/TarefasTests.java</url>
+          <line>234</line>
+          <option name="timeStamp" value="91" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="TestNG">
+        <watch expression="relacaoTarefaBD.get(0)" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mantisJava$TarefasTests_Test_adicionaRelacaoFilhoSucesso.ic" NAME="TarefasTests.Test_adicionaRelacaoFilhoSucesso Coverage Results" MODIFIED="1595641425441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.seleniumMantis.tests.*</FILTER>
+    </SUITE>
   </component>
 </project>

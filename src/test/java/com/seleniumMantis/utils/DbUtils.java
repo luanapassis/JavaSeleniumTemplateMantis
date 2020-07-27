@@ -11,7 +11,7 @@ public class DbUtils {
         Connection connection = null;
 
         try {
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             Statement stmt = null;
             connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/bugtracker?useTimezone=true&serverTimezone=UTC","root","");
 
@@ -54,12 +54,33 @@ public class DbUtils {
         Connection connection = null;
 
         try {
-            Class.forName("com.mysql.jdbc.Driver");
+            Class.forName("com.mysql.cj.jdbc.Driver");
             Statement stmt = null;
             connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/bugtracker?useTimezone=true&serverTimezone=UTC","root","");
 
             stmt = connection.createStatement();
             stmt.executeQuery(query);
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally{
+            try {
+                connection.close();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }
+    }
+    public static void executaMudancas(String query){
+        Connection connection = null;
+
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver");
+            Statement stmt = null;
+            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/bugtracker?useTimezone=true&serverTimezone=UTC","root","");
+
+            stmt = connection.createStatement();
+            stmt.executeUpdate(query);
 
         } catch (Exception e) {
             e.printStackTrace();
