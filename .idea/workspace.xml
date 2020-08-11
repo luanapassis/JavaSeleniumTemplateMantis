@@ -2,32 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afa8f791-4a86-4682-906d-11a53c519619" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/flows/LoginFlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/page/GerenciarMarcadoresPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/page/GerenciarProjetoPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/page/GerenciarUsuarioPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/page/MinhaVisaoPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/page/TarefasPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/page/VerTarefasPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/GerenciarTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/ProjetoTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/TarefasTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/preTests/PreTestMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/globalParameters.properties" beforeDir="false" afterPath="$PROJECT_DIR$/globalParameters.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/GlobalParameters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/GlobalParameters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/bases/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/bases/PageBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/dbSteps/DataBaseSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/dbSteps/DataBaseSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/GerenciarTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/GerenciarTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/utils/DbUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/utils/DbUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/utils/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/GlobalParameters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/GlobalParameters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/bases/PageBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/bases/PageBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/dbSteps/DataBaseSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/dbSteps/DataBaseSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/tests/LoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/tests/LoginTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/utils/DbUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/utils/DbUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/utils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/utils/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/ProjetoTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/ProjetoTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/TarefasTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/TarefasTests.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +37,7 @@
   <component name="ProjectId" id="1ekJVrSMI6QoXBCAGfaEwrIiNsw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Template Apium/javaappiumtemplate-master" />
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
   <component name="RecentsManager">

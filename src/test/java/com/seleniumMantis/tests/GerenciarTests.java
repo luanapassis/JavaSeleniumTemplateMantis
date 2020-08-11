@@ -22,7 +22,7 @@ public class GerenciarTests extends TestBase {
     GerenciarMarcadoresPage gerenciarMarcadoresPage;
 
     @Test
-    public void Test_verificaTrocaPerfilAdministrador()
+    public void verificaTrocaPerfilAdministrador()
     {
         db = new DataBaseSteps();
         loginFlow = new LoginFlow();
@@ -43,7 +43,7 @@ public class GerenciarTests extends TestBase {
         Assert.assertEquals(  "90",status);
     }
     @Test
-    public void Test_inativaUsuario()
+    public void inativaUsuario()
     {
         db = new DataBaseSteps();
         loginFlow = new LoginFlow();
@@ -63,7 +63,7 @@ public class GerenciarTests extends TestBase {
         Assert.assertEquals(  "0",status);
     }
     @Test
-    public void Test_verificaTrocaPerfilGerente()
+    public void verificaTrocaPerfilGerente()
     {
         db = new DataBaseSteps();
         loginFlow = new LoginFlow();
@@ -84,7 +84,7 @@ public class GerenciarTests extends TestBase {
         Assert.assertEquals(  "70",status);
     }
     @Test
-    public void Test_verificaTrocaPerfilDesenvolvedor()
+    public void verificaTrocaPerfilDesenvolvedor()
     {
         db = new DataBaseSteps();
         loginFlow = new LoginFlow();
@@ -105,7 +105,7 @@ public class GerenciarTests extends TestBase {
         Assert.assertEquals(  "55",status);
     }
     @Test
-    public void Test_verificaTrocaPerfilAtualizador()
+    public void verificaTrocaPerfilAtualizador()
     {
         db = new DataBaseSteps();
         loginFlow = new LoginFlow();
@@ -126,7 +126,7 @@ public class GerenciarTests extends TestBase {
         Assert.assertEquals(  "40",status);
     }
     @Test
-    public void Test_verificaTrocaPerfilRelator()
+    public void verificaTrocaPerfilRelator()
     {
         db = new DataBaseSteps();
         loginFlow = new LoginFlow();
@@ -147,7 +147,7 @@ public class GerenciarTests extends TestBase {
         Assert.assertEquals(  "25",status);
     }
      @Test
-    public void Test_verificaTrocaPerfilVisualizador()
+    public void verificaTrocaPerfilVisualizador()
     {
         db = new DataBaseSteps();
         loginFlow = new LoginFlow();
@@ -168,7 +168,7 @@ public class GerenciarTests extends TestBase {
         Assert.assertEquals(  "10",status);
     }
     @Test
-    public void Test_verificaAlteracaoEmailUsuario()
+    public void verificaAlteracaoEmailUsuario()
     {
         db = new DataBaseSteps();
         loginFlow = new LoginFlow();
@@ -189,7 +189,7 @@ public class GerenciarTests extends TestBase {
         Assert.assertEquals( email,novoEmail);
     }
     @Test
-    public void Test_apagaUsuario()
+    public void apagaUsuario()
     {
         db = new DataBaseSteps();
         loginFlow = new LoginFlow();
@@ -208,7 +208,7 @@ public class GerenciarTests extends TestBase {
         Assert.assertNull(usu);
     }
     @Test
-    public void Test_alteraNomeUsuario()
+    public void alteraNomeUsuario()
     {
         db = new DataBaseSteps();
         loginFlow = new LoginFlow();
@@ -229,7 +229,7 @@ public class GerenciarTests extends TestBase {
         Assert.assertEquals(novoNomeUsuario, usu);
     }
     @Test
-    public void Test_alteraNomeRealUsuario()
+    public void alteraNomeRealUsuario()
     {
         db = new DataBaseSteps();
         loginFlow = new LoginFlow();
@@ -250,7 +250,7 @@ public class GerenciarTests extends TestBase {
         Assert.assertEquals(novoNomeRealUsuario, usu);
     }
     @Test
-    public void Test_criaNovoUsuario()
+    public void criaNovoUsuario()
     {
         db = new DataBaseSteps();
         loginFlow = new LoginFlow();
@@ -275,7 +275,7 @@ public class GerenciarTests extends TestBase {
         Assert.assertNotNull(usu);
     }
     @Test
-    public void Test_criaUsuarioNomeJaCadastrado()
+    public void criaUsuarioNomeJaCadastrado()
     {
         db = new DataBaseSteps();
         loginFlow = new LoginFlow();
@@ -301,7 +301,7 @@ public class GerenciarTests extends TestBase {
         Assert.assertTrue(msgErro);
     }
     @Test
-    public void Test_criaUsuarioEmailJaCadastrado()
+    public void criaUsuarioEmailJaCadastrado()
     {
         db = new DataBaseSteps();
         loginFlow = new LoginFlow();
@@ -329,7 +329,7 @@ public class GerenciarTests extends TestBase {
 
     //testes de gerenciamento de projetos
     @Test
-    public void Test_editarStadoParaRelease()
+    public void editarStadoParaRelease()
     {
         db = new DataBaseSteps();
         loginFlow = new LoginFlow();
@@ -349,7 +349,7 @@ public class GerenciarTests extends TestBase {
         Assert.assertEquals(status, "30");
     }
     @Test
-    public void Test_editarStadoParaEstavel()
+    public void editarStadoParaEstavel()
     {
         db = new DataBaseSteps();
         loginFlow = new LoginFlow();
@@ -369,7 +369,7 @@ public class GerenciarTests extends TestBase {
         Assert.assertEquals(status, "50");
     }
     @Test
-    public void Test_editarStadoParaObsoleto()
+    public void editarStadoParaObsoleto()
     {
         db = new DataBaseSteps();
         loginFlow = new LoginFlow();
@@ -389,7 +389,7 @@ public class GerenciarTests extends TestBase {
         Assert.assertEquals(status, "70");
     }
     @Test
-    public void Test_criarNovoProjeto()
+    public void criarNovoProjeto()
     {
         db = new DataBaseSteps();
         loginFlow = new LoginFlow();
@@ -414,7 +414,7 @@ public class GerenciarTests extends TestBase {
         Assert.assertNotNull(dadosProjeto);
     }
     @Test
-    public void Test_alterarVisibilidadePrivado()
+    public void alterarVisibilidadePrivado()
     {
         db = new DataBaseSteps();
         loginFlow = new LoginFlow();
@@ -434,7 +434,7 @@ public class GerenciarTests extends TestBase {
         Assert.assertEquals(view, "50");
     }
     @Test
-    public void Test_alterarVisibilidadePublico()
+    public void alterarVisibilidadePublico()
     {
         db = new DataBaseSteps();
         loginFlow = new LoginFlow();
@@ -454,7 +454,7 @@ public class GerenciarTests extends TestBase {
         Assert.assertEquals(view, "10");
     }
     @Test
-    public void Test_vincularSubProjeto()
+    public void vincularSubProjeto()
     {
         db = new DataBaseSteps();
         loginFlow = new LoginFlow();
@@ -481,7 +481,7 @@ public class GerenciarTests extends TestBase {
 
     }
     @Test
-    public void Test_desabilitarProjeto()
+    public void desabilitarProjeto()
     {
         db = new DataBaseSteps();
         loginFlow = new LoginFlow();
@@ -502,7 +502,7 @@ public class GerenciarTests extends TestBase {
 
     }
     @Test
-    public void Test_cadastrarProjetoNomeJaExistente()
+    public void cadastrarProjetoNomeJaExistente()
     {
         db = new DataBaseSteps();
         loginFlow = new LoginFlow();
@@ -529,7 +529,7 @@ public class GerenciarTests extends TestBase {
         Assert.assertTrue(dadosProjeto.size() == 10);
     }
     @Test
-    public void Test_editarNomeMarcador()
+    public void editarNomeMarcador()
     {
         db = new DataBaseSteps();
         loginFlow = new LoginFlow();
@@ -551,7 +551,7 @@ public class GerenciarTests extends TestBase {
         Assert.assertEquals(nomeMarcadorBD, novoNomeMarcador);
     }
         @Test
-    public void Test_cadastrarNomeMarcadorJaExistente()
+    public void cadastrarNomeMarcadorJaExistente()
     {
         db = new DataBaseSteps();
         loginFlow = new LoginFlow();
@@ -574,7 +574,7 @@ public class GerenciarTests extends TestBase {
         Assert.assertTrue(msgErro);
     }
         @Test
-    public void Test_editarDescricaoMarcador()
+    public void editarDescricaoMarcador()
     {
         db = new DataBaseSteps();
         loginFlow = new LoginFlow();
@@ -595,7 +595,7 @@ public class GerenciarTests extends TestBase {
         Assert.assertEquals(novaDescricaoMarcador, descricaoMarcadorBD);
     }
         @Test
-    public void Test_criarNovoMarcador()
+    public void criarNovoMarcador()
     {
         db = new DataBaseSteps();
         loginFlow = new LoginFlow();

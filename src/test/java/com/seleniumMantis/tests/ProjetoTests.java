@@ -13,7 +13,7 @@ public class ProjetoTests extends TestBase
     HomePage homePage;
 
     @Test
-    public void Test_verificaProjetoExistente()
+    public void verificaProjetoExistente()
     {
         loginFlow = new LoginFlow();
         homePage = new HomePage();
@@ -28,7 +28,7 @@ public class ProjetoTests extends TestBase
     }
 
      @Test
-    public void Test_verificaSelecaoProjetoExistente()
+    public void verificaSelecaoProjetoExistente()
     {
         loginFlow = new LoginFlow();
         homePage = new HomePage();

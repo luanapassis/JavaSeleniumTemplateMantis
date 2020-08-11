@@ -17,7 +17,7 @@
         //Tests
         @Test
         @Description("Realiza o login com suscesso")
-        public void LoginSucesso()
+        public void loginSucesso()
         {
             loginPage = new LoginPage();
             homePage = new HomePage();
@@ -34,7 +34,7 @@
 
         @Test
         @Description ("Realizar o login com usuario e senha incorretos")
-        public void LoginUsuarioSenhaIncorretos()
+        public void loginUsuarioSenhaIncorretos()
         {
             loginPage = new LoginPage();
             homePage = new HomePage();
@@ -52,7 +52,7 @@
         }
         @Test
         @Description("Realizar o login com senha incorreta")
-        public void LoginSenhaIncorreta()
+        public void loginSenhaIncorreta()
         {
             loginPage = new LoginPage();
             homePage = new HomePage();
@@ -71,7 +71,7 @@
 
         @Test
         @Description("Realizar teste com usuário desativado")
-        public void LoginUsuarioDesativado()
+        public void loginUsuarioDesativado()
         {
             loginPage = new LoginPage();
             homePage = new HomePage();
@@ -90,7 +90,7 @@
 
         @Test
         @Description("Realiza login utilizando interação com javaScript")
-        public void LoginUtilizandoJavaScritp()
+        public void loginUtilizandoJavaScritp()
         {
             loginPage = new LoginPage();
             homePage = new HomePage();
@@ -108,7 +108,7 @@
         }
 
         @Test(dataProvider="testdata")
-        public void LoginUtilizandoDataDriven(String usuario, String senha, String valorQualquer) throws InterruptedException
+        public void loginUtilizandoDataDriven(String usuario, String senha, String valorQualquer) throws InterruptedException
         {
             loginPage = new LoginPage();
             homePage = new HomePage();

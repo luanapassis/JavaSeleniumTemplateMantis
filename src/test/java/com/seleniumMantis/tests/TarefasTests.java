@@ -25,7 +25,7 @@ public class TarefasTests extends TestBase
     VerTarefasPage verTarefasPage;
 
     @Test
-    public void Test_criaTarefaSucesso()
+    public void criaTarefaSucesso()
     {
         db = new DataBaseSteps();
         loginFlow = new LoginFlow();
@@ -54,7 +54,7 @@ public class TarefasTests extends TestBase
     }
 
    @Test
-    public void Test_verificaTarefaCriadaEmMinhaVisao()
+    public void verificaTarefaCriadaEmMinhaVisao()
     {
         db = new DataBaseSteps();
         loginFlow = new LoginFlow();
@@ -75,7 +75,7 @@ public class TarefasTests extends TestBase
         Assert.assertTrue(tarefaExiste);
     }
     @Test
-    public void Test_verificaFiltroTarefa()
+    public void verificaFiltroTarefa()
     {
         db = new DataBaseSteps();
         preTest = new PreTestMethods();
@@ -98,7 +98,7 @@ public class TarefasTests extends TestBase
         Assert.assertEquals(idTarefa, idRetornadoGrid);
     }
         @Test
-    public void Test_adicionaMarcadorTarefa()
+    public void adicionaMarcadorTarefa()
     {
         db = new DataBaseSteps();
         preTest = new PreTestMethods();
@@ -124,7 +124,7 @@ public class TarefasTests extends TestBase
         Assert.assertNotNull(tagTarefaBD);
     }
         @Test
-    public void Test_removeMarcadorTarefa()
+    public void removeMarcadorTarefa()
     {
         db = new DataBaseSteps();
         preTest = new PreTestMethods();
@@ -154,7 +154,7 @@ public class TarefasTests extends TestBase
         Assert.assertNull(tagTarefaAposDeletarBD);
     }
         @Test
-    public void Test_adicionaRelacaoInvalida()
+    public void adicionaRelacaoInvalida()
     {
         db = new DataBaseSteps();
         preTest = new PreTestMethods();
@@ -179,7 +179,7 @@ public class TarefasTests extends TestBase
         Assert.assertTrue(msgErro);
     }
         @Test
-    public void Test_adicionaRelacaoSucesso()
+    public void adicionaRelacaoSucesso()
     {
         db = new DataBaseSteps();
         preTest = new PreTestMethods();
@@ -207,7 +207,7 @@ public class TarefasTests extends TestBase
         Assert.assertEquals("1", relacaoTarefaBD.get(3));
     }
         @Test
-    public void Test_adicionaRelacaoPaiSucesso()
+    public void adicionaRelacaoPaiSucesso()
     {
         db = new DataBaseSteps();
         preTest = new PreTestMethods();
@@ -235,7 +235,7 @@ public class TarefasTests extends TestBase
         Assert.assertEquals("2", relacaoTarefaBD.get(3));
     }
         @Test
-    public void Test_adicionaRelacaoFilhoSucesso()
+    public void adicionaRelacaoFilhoSucesso()
     {
         db =  new DataBaseSteps();
         preTest = new PreTestMethods();
@@ -264,7 +264,7 @@ public class TarefasTests extends TestBase
 
     }
         @Test
-    public void Test_adicionaRelacaoDuplicadaSucesso()
+    public void adicionaRelacaoDuplicadaSucesso()
     {
         db = new DataBaseSteps();
         preTest = new PreTestMethods();
@@ -293,7 +293,7 @@ public class TarefasTests extends TestBase
 
     }
         @Test
-    public void Test_adicionaRelacaoPossuiDuplicidadeSucesso()
+    public void adicionaRelacaoPossuiDuplicidadeSucesso()
     {
         db = new DataBaseSteps();
         preTest = new PreTestMethods();
@@ -322,7 +322,7 @@ public class TarefasTests extends TestBase
 
     }
         @Test
-    public void Test_atribuiTarefaUsuario()
+    public void atribuiTarefaUsuario()
     {
         db = new DataBaseSteps();
         preTest = new PreTestMethods();
@@ -352,7 +352,7 @@ public class TarefasTests extends TestBase
         Assert.assertEquals( idUsuario, tarefaBD.get(3));
     }
         @Test
-    public void Test_tentaResolverTarefaComStatusNovo()
+    public void tentaResolverTarefaComStatusNovo()
     {
         db = new DataBaseSteps();
         preTest = new PreTestMethods();
@@ -379,7 +379,7 @@ public class TarefasTests extends TestBase
         Assert.assertTrue(msgErro);
     }
     @Test
-    public void Test_tentaResolverTarefaSucesso()
+    public void tentaResolverTarefaSucesso()
     {
         db = new DataBaseSteps();
         preTest = new PreTestMethods();
@@ -408,7 +408,7 @@ public class TarefasTests extends TestBase
         Assert.assertTrue(tarefaBD.get(9).contains("20"));
     }
         @Test
-    public void Test_alteraPrioridadeTarefa()
+    public void alteraPrioridadeTarefa()
     {
         db = new DataBaseSteps();
         preTest = new PreTestMethods();
