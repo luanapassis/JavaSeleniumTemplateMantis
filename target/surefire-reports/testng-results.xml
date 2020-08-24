@@ -1,0 +1,1387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="57" passed="51">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="765552" started-at="2020-08-24T19:45:36Z" finished-at="2020-08-24T19:58:22Z">
+    <groups>
+    </groups>
+    <test name="C:/Users/Base2/Desktop/Ole/mantisJavaTemplate/src/test/java/com/seleniumMantis/tests" duration-ms="765552" started-at="2020-08-24T19:45:36Z" finished-at="2020-08-24T19:58:22Z">
+      <class name="com.seleniumMantis.tests.TarefasTests">
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="beforeTest" is-config="true" duration-ms="6184" started-at="2020-08-24T19:54:23Z" finished-at="2020-08-24T19:54:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.TarefasTests.criaTarefaSucesso()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="criaTarefaSucesso()[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="criaTarefaSucesso" duration-ms="9602" started-at="2020-08-24T19:54:29Z" finished-at="2020-08-24T19:54:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- criaTarefaSucesso -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="afterTest" is-config="true" duration-ms="647" started-at="2020-08-24T19:54:38Z" finished-at="2020-08-24T19:54:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=criaTarefaSucesso status=SUCCESS method=TarefasTests.criaTarefaSucesso()[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="beforeTest" is-config="true" duration-ms="6646" started-at="2020-08-24T19:54:39Z" finished-at="2020-08-24T19:54:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.TarefasTests.verificaTarefaCriadaEmMinhaVisao()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verificaTarefaCriadaEmMinhaVisao()[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="verificaTarefaCriadaEmMinhaVisao" duration-ms="8059" started-at="2020-08-24T19:54:46Z" finished-at="2020-08-24T19:54:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificaTarefaCriadaEmMinhaVisao -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="afterTest" is-config="true" duration-ms="679" started-at="2020-08-24T19:54:54Z" finished-at="2020-08-24T19:54:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verificaTarefaCriadaEmMinhaVisao status=SUCCESS method=TarefasTests.verificaTarefaCriadaEmMinhaVisao()[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="beforeTest" is-config="true" duration-ms="6414" started-at="2020-08-24T19:54:54Z" finished-at="2020-08-24T19:55:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.TarefasTests.verificaFiltroTarefa()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verificaFiltroTarefa()[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="verificaFiltroTarefa" duration-ms="8488" started-at="2020-08-24T19:55:01Z" finished-at="2020-08-24T19:55:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificaFiltroTarefa -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="afterTest" is-config="true" duration-ms="700" started-at="2020-08-24T19:55:09Z" finished-at="2020-08-24T19:55:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verificaFiltroTarefa status=SUCCESS method=TarefasTests.verificaFiltroTarefa()[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="beforeTest" is-config="true" duration-ms="6005" started-at="2020-08-24T19:55:10Z" finished-at="2020-08-24T19:55:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.TarefasTests.adicionaMarcadorTarefa()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="adicionaMarcadorTarefa()[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="adicionaMarcadorTarefa" duration-ms="8587" started-at="2020-08-24T19:55:16Z" finished-at="2020-08-24T19:55:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adicionaMarcadorTarefa -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="afterTest" is-config="true" duration-ms="644" started-at="2020-08-24T19:55:25Z" finished-at="2020-08-24T19:55:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=adicionaMarcadorTarefa status=SUCCESS method=TarefasTests.adicionaMarcadorTarefa()[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="beforeTest" is-config="true" duration-ms="6306" started-at="2020-08-24T19:55:25Z" finished-at="2020-08-24T19:55:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.TarefasTests.removeMarcadorTarefa()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="removeMarcadorTarefa()[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="removeMarcadorTarefa" duration-ms="9671" started-at="2020-08-24T19:55:31Z" finished-at="2020-08-24T19:55:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeMarcadorTarefa -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="afterTest" is-config="true" duration-ms="659" started-at="2020-08-24T19:55:41Z" finished-at="2020-08-24T19:55:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeMarcadorTarefa status=SUCCESS method=TarefasTests.removeMarcadorTarefa()[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="beforeTest" is-config="true" duration-ms="6153" started-at="2020-08-24T19:55:42Z" finished-at="2020-08-24T19:55:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.TarefasTests.adicionaRelacaoInvalida()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="adicionaRelacaoInvalida()[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="adicionaRelacaoInvalida" duration-ms="8559" started-at="2020-08-24T19:55:48Z" finished-at="2020-08-24T19:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adicionaRelacaoInvalida -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="afterTest" is-config="true" duration-ms="685" started-at="2020-08-24T19:55:57Z" finished-at="2020-08-24T19:55:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=adicionaRelacaoInvalida status=SUCCESS method=TarefasTests.adicionaRelacaoInvalida()[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="beforeTest" is-config="true" duration-ms="6311" started-at="2020-08-24T19:55:57Z" finished-at="2020-08-24T19:56:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.TarefasTests.adicionaRelacaoSucesso()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="adicionaRelacaoSucesso()[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="adicionaRelacaoSucesso" duration-ms="9562" started-at="2020-08-24T19:56:04Z" finished-at="2020-08-24T19:56:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adicionaRelacaoSucesso -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="afterTest" is-config="true" duration-ms="678" started-at="2020-08-24T19:56:13Z" finished-at="2020-08-24T19:56:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=adicionaRelacaoSucesso status=SUCCESS method=TarefasTests.adicionaRelacaoSucesso()[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="beforeTest" is-config="true" duration-ms="6170" started-at="2020-08-24T19:56:14Z" finished-at="2020-08-24T19:56:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.TarefasTests.adicionaRelacaoPaiSucesso()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="adicionaRelacaoPaiSucesso()[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="adicionaRelacaoPaiSucesso" duration-ms="8627" started-at="2020-08-24T19:56:20Z" finished-at="2020-08-24T19:56:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adicionaRelacaoPaiSucesso -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="afterTest" is-config="true" duration-ms="649" started-at="2020-08-24T19:56:29Z" finished-at="2020-08-24T19:56:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=adicionaRelacaoPaiSucesso status=SUCCESS method=TarefasTests.adicionaRelacaoPaiSucesso()[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="beforeTest" is-config="true" duration-ms="5994" started-at="2020-08-24T19:56:29Z" finished-at="2020-08-24T19:56:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.TarefasTests.adicionaRelacaoFilhoSucesso()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="adicionaRelacaoFilhoSucesso()[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="adicionaRelacaoFilhoSucesso" duration-ms="9356" started-at="2020-08-24T19:56:35Z" finished-at="2020-08-24T19:56:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adicionaRelacaoFilhoSucesso -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="afterTest" is-config="true" duration-ms="656" started-at="2020-08-24T19:56:45Z" finished-at="2020-08-24T19:56:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=adicionaRelacaoFilhoSucesso status=SUCCESS method=TarefasTests.adicionaRelacaoFilhoSucesso()[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="beforeTest" is-config="true" duration-ms="6017" started-at="2020-08-24T19:56:45Z" finished-at="2020-08-24T19:56:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.TarefasTests.adicionaRelacaoDuplicadaSucesso()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="adicionaRelacaoDuplicadaSucesso()[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="adicionaRelacaoDuplicadaSucesso" duration-ms="8794" started-at="2020-08-24T19:56:51Z" finished-at="2020-08-24T19:57:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adicionaRelacaoDuplicadaSucesso -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="afterTest" is-config="true" duration-ms="1011" started-at="2020-08-24T19:57:00Z" finished-at="2020-08-24T19:57:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=adicionaRelacaoDuplicadaSucesso status=SUCCESS method=TarefasTests.adicionaRelacaoDuplicadaSucesso()[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="beforeTest" is-config="true" duration-ms="6367" started-at="2020-08-24T19:57:01Z" finished-at="2020-08-24T19:57:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.TarefasTests.adicionaRelacaoPossuiDuplicidadeSucesso()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="adicionaRelacaoPossuiDuplicidadeSucesso()[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="adicionaRelacaoPossuiDuplicidadeSucesso" duration-ms="9371" started-at="2020-08-24T19:57:07Z" finished-at="2020-08-24T19:57:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adicionaRelacaoPossuiDuplicidadeSucesso -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="afterTest" is-config="true" duration-ms="656" started-at="2020-08-24T19:57:17Z" finished-at="2020-08-24T19:57:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=adicionaRelacaoPossuiDuplicidadeSucesso status=SUCCESS method=TarefasTests.adicionaRelacaoPossuiDuplicidadeSucesso()[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="beforeTest" is-config="true" duration-ms="6174" started-at="2020-08-24T19:57:17Z" finished-at="2020-08-24T19:57:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.TarefasTests.atribuiTarefaUsuario()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="atribuiTarefaUsuario()[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="atribuiTarefaUsuario" duration-ms="9985" started-at="2020-08-24T19:57:24Z" finished-at="2020-08-24T19:57:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atribuiTarefaUsuario -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="afterTest" is-config="true" duration-ms="758" started-at="2020-08-24T19:57:34Z" finished-at="2020-08-24T19:57:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=atribuiTarefaUsuario status=SUCCESS method=TarefasTests.atribuiTarefaUsuario()[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="beforeTest" is-config="true" duration-ms="6055" started-at="2020-08-24T19:57:34Z" finished-at="2020-08-24T19:57:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.TarefasTests.tentaResolverTarefaComStatusNovo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="tentaResolverTarefaComStatusNovo()[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="tentaResolverTarefaComStatusNovo" duration-ms="8873" started-at="2020-08-24T19:57:40Z" finished-at="2020-08-24T19:57:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tentaResolverTarefaComStatusNovo -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="afterTest" is-config="true" duration-ms="644" started-at="2020-08-24T19:57:49Z" finished-at="2020-08-24T19:57:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tentaResolverTarefaComStatusNovo status=SUCCESS method=TarefasTests.tentaResolverTarefaComStatusNovo()[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="beforeTest" is-config="true" duration-ms="6399" started-at="2020-08-24T19:57:50Z" finished-at="2020-08-24T19:57:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.TarefasTests.tentaResolverTarefaSucesso()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="tentaResolverTarefaSucesso()[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="tentaResolverTarefaSucesso" duration-ms="9115" started-at="2020-08-24T19:57:56Z" finished-at="2020-08-24T19:58:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tentaResolverTarefaSucesso -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="afterTest" is-config="true" duration-ms="658" started-at="2020-08-24T19:58:05Z" finished-at="2020-08-24T19:58:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tentaResolverTarefaSucesso status=SUCCESS method=TarefasTests.tentaResolverTarefaSucesso()[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="beforeTest" is-config="true" duration-ms="6195" started-at="2020-08-24T19:58:06Z" finished-at="2020-08-24T19:58:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.TarefasTests.alteraPrioridadeTarefa()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="alteraPrioridadeTarefa()[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="alteraPrioridadeTarefa" duration-ms="9026" started-at="2020-08-24T19:58:12Z" finished-at="2020-08-24T19:58:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alteraPrioridadeTarefa -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8]" name="afterTest" is-config="true" duration-ms="726" started-at="2020-08-24T19:58:21Z" finished-at="2020-08-24T19:58:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alteraPrioridadeTarefa status=SUCCESS method=TarefasTests.alteraPrioridadeTarefa()[pri:0, instance:com.seleniumMantis.tests.TarefasTests@514224a8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.seleniumMantis.tests.TarefasTests -->
+      <class name="com.seleniumMantis.tests.ProjetoTests">
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.ProjetoTests@40473bff]" name="beforeTest" is-config="true" duration-ms="6363" started-at="2020-08-24T19:54:01Z" finished-at="2020-08-24T19:54:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.ProjetoTests.verificaProjetoExistente()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verificaProjetoExistente()[pri:0, instance:com.seleniumMantis.tests.ProjetoTests@40473bff]" name="verificaProjetoExistente" duration-ms="3935" started-at="2020-08-24T19:54:07Z" finished-at="2020-08-24T19:54:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificaProjetoExistente -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.ProjetoTests@40473bff]" name="afterTest" is-config="true" duration-ms="820" started-at="2020-08-24T19:54:11Z" finished-at="2020-08-24T19:54:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verificaProjetoExistente status=SUCCESS method=ProjetoTests.verificaProjetoExistente()[pri:0, instance:com.seleniumMantis.tests.ProjetoTests@40473bff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.ProjetoTests@40473bff]" name="beforeTest" is-config="true" duration-ms="6304" started-at="2020-08-24T19:54:12Z" finished-at="2020-08-24T19:54:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.ProjetoTests.verificaSelecaoProjetoExistente()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verificaSelecaoProjetoExistente()[pri:0, instance:com.seleniumMantis.tests.ProjetoTests@40473bff]" name="verificaSelecaoProjetoExistente" duration-ms="3611" started-at="2020-08-24T19:54:18Z" finished-at="2020-08-24T19:54:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificaSelecaoProjetoExistente -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.ProjetoTests@40473bff]" name="afterTest" is-config="true" duration-ms="655" started-at="2020-08-24T19:54:22Z" finished-at="2020-08-24T19:54:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verificaSelecaoProjetoExistente status=SUCCESS method=ProjetoTests.verificaSelecaoProjetoExistente()[pri:0, instance:com.seleniumMantis.tests.ProjetoTests@40473bff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.seleniumMantis.tests.ProjetoTests -->
+      <class name="com.seleniumMantis.tests.GerenciarTests">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="beforeSuite" is-config="true" duration-ms="738" started-at="2020-08-24T19:45:36Z" finished-at="2020-08-24T19:45:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="beforeTest" is-config="true" duration-ms="7495" started-at="2020-08-24T19:45:37Z" finished-at="2020-08-24T19:45:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.GerenciarTests.verificaTrocaPerfilAdministrador()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verificaTrocaPerfilAdministrador()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="verificaTrocaPerfilAdministrador" duration-ms="6119" started-at="2020-08-24T19:45:44Z" finished-at="2020-08-24T19:45:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificaTrocaPerfilAdministrador -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="afterTest" is-config="true" duration-ms="855" started-at="2020-08-24T19:45:50Z" finished-at="2020-08-24T19:45:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verificaTrocaPerfilAdministrador status=SUCCESS method=GerenciarTests.verificaTrocaPerfilAdministrador()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="beforeTest" is-config="true" duration-ms="6101" started-at="2020-08-24T19:45:51Z" finished-at="2020-08-24T19:45:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.GerenciarTests.inativaUsuario()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="inativaUsuario()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="inativaUsuario" duration-ms="4347" started-at="2020-08-24T19:45:57Z" finished-at="2020-08-24T19:46:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inativaUsuario -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="afterTest" is-config="true" duration-ms="736" started-at="2020-08-24T19:46:01Z" finished-at="2020-08-24T19:46:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=inativaUsuario status=SUCCESS method=GerenciarTests.inativaUsuario()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="beforeTest" is-config="true" duration-ms="6353" started-at="2020-08-24T19:46:02Z" finished-at="2020-08-24T19:46:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.GerenciarTests.verificaTrocaPerfilGerente()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verificaTrocaPerfilGerente()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="verificaTrocaPerfilGerente" duration-ms="4922" started-at="2020-08-24T19:46:09Z" finished-at="2020-08-24T19:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificaTrocaPerfilGerente -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="afterTest" is-config="true" duration-ms="720" started-at="2020-08-24T19:46:13Z" finished-at="2020-08-24T19:46:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verificaTrocaPerfilGerente status=SUCCESS method=GerenciarTests.verificaTrocaPerfilGerente()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="beforeTest" is-config="true" duration-ms="6081" started-at="2020-08-24T19:46:14Z" finished-at="2020-08-24T19:46:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.GerenciarTests.verificaTrocaPerfilDesenvolvedor()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verificaTrocaPerfilDesenvolvedor()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="verificaTrocaPerfilDesenvolvedor" duration-ms="5351" started-at="2020-08-24T19:46:20Z" finished-at="2020-08-24T19:46:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificaTrocaPerfilDesenvolvedor -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="afterTest" is-config="true" duration-ms="1175" started-at="2020-08-24T19:46:26Z" finished-at="2020-08-24T19:46:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verificaTrocaPerfilDesenvolvedor status=SUCCESS method=GerenciarTests.verificaTrocaPerfilDesenvolvedor()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="beforeTest" is-config="true" duration-ms="6337" started-at="2020-08-24T19:46:27Z" finished-at="2020-08-24T19:46:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.GerenciarTests.verificaTrocaPerfilAtualizador()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verificaTrocaPerfilAtualizador()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="verificaTrocaPerfilAtualizador" duration-ms="5900" started-at="2020-08-24T19:46:33Z" finished-at="2020-08-24T19:46:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificaTrocaPerfilAtualizador -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="afterTest" is-config="true" duration-ms="700" started-at="2020-08-24T19:46:39Z" finished-at="2020-08-24T19:46:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verificaTrocaPerfilAtualizador status=SUCCESS method=GerenciarTests.verificaTrocaPerfilAtualizador()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="beforeTest" is-config="true" duration-ms="6203" started-at="2020-08-24T19:46:40Z" finished-at="2020-08-24T19:46:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.GerenciarTests.verificaTrocaPerfilRelator()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verificaTrocaPerfilRelator()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="verificaTrocaPerfilRelator" duration-ms="4906" started-at="2020-08-24T19:46:46Z" finished-at="2020-08-24T19:46:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificaTrocaPerfilRelator -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="afterTest" is-config="true" duration-ms="648" started-at="2020-08-24T19:46:51Z" finished-at="2020-08-24T19:46:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verificaTrocaPerfilRelator status=SUCCESS method=GerenciarTests.verificaTrocaPerfilRelator()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="beforeTest" is-config="true" duration-ms="6094" started-at="2020-08-24T19:46:51Z" finished-at="2020-08-24T19:46:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.GerenciarTests.verificaTrocaPerfilVisualizador()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verificaTrocaPerfilVisualizador()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="verificaTrocaPerfilVisualizador" duration-ms="4291" started-at="2020-08-24T19:46:58Z" finished-at="2020-08-24T19:47:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificaTrocaPerfilVisualizador -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="afterTest" is-config="true" duration-ms="723" started-at="2020-08-24T19:47:02Z" finished-at="2020-08-24T19:47:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verificaTrocaPerfilVisualizador status=SUCCESS method=GerenciarTests.verificaTrocaPerfilVisualizador()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="beforeTest" is-config="true" duration-ms="6493" started-at="2020-08-24T19:47:03Z" finished-at="2020-08-24T19:47:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.GerenciarTests.verificaAlteracaoEmailUsuario()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="verificaAlteracaoEmailUsuario()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="verificaAlteracaoEmailUsuario" duration-ms="5475" started-at="2020-08-24T19:47:09Z" finished-at="2020-08-24T19:47:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verificaAlteracaoEmailUsuario -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="afterTest" is-config="true" duration-ms="937" started-at="2020-08-24T19:47:15Z" finished-at="2020-08-24T19:47:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verificaAlteracaoEmailUsuario status=SUCCESS method=GerenciarTests.verificaAlteracaoEmailUsuario()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="beforeTest" is-config="true" duration-ms="6020" started-at="2020-08-24T19:47:15Z" finished-at="2020-08-24T19:47:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.GerenciarTests.apagaUsuario()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="apagaUsuario()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="apagaUsuario" duration-ms="5362" started-at="2020-08-24T19:47:22Z" finished-at="2020-08-24T19:47:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apagaUsuario -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="afterTest" is-config="true" duration-ms="801" started-at="2020-08-24T19:47:27Z" finished-at="2020-08-24T19:47:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=apagaUsuario status=SUCCESS method=GerenciarTests.apagaUsuario()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="beforeTest" is-config="true" duration-ms="6241" started-at="2020-08-24T19:47:28Z" finished-at="2020-08-24T19:47:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.GerenciarTests.alteraNomeUsuario()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="alteraNomeUsuario()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="alteraNomeUsuario" duration-ms="5202" started-at="2020-08-24T19:47:34Z" finished-at="2020-08-24T19:47:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alteraNomeUsuario -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="afterTest" is-config="true" duration-ms="635" started-at="2020-08-24T19:47:39Z" finished-at="2020-08-24T19:47:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alteraNomeUsuario status=SUCCESS method=GerenciarTests.alteraNomeUsuario()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="beforeTest" is-config="true" duration-ms="6560" started-at="2020-08-24T19:47:40Z" finished-at="2020-08-24T19:47:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.GerenciarTests.alteraNomeRealUsuario()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="alteraNomeRealUsuario()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="alteraNomeRealUsuario" duration-ms="5131" started-at="2020-08-24T19:47:46Z" finished-at="2020-08-24T19:47:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alteraNomeRealUsuario -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="afterTest" is-config="true" duration-ms="796" started-at="2020-08-24T19:47:51Z" finished-at="2020-08-24T19:47:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alteraNomeRealUsuario status=SUCCESS method=GerenciarTests.alteraNomeRealUsuario()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="beforeTest" is-config="true" duration-ms="6517" started-at="2020-08-24T19:47:52Z" finished-at="2020-08-24T19:47:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.GerenciarTests.criaNovoUsuario()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="criaNovoUsuario()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="criaNovoUsuario" duration-ms="124370" started-at="2020-08-24T19:47:59Z" finished-at="2020-08-24T19:50:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- criaNovoUsuario -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="afterTest" is-config="true" duration-ms="704" started-at="2020-08-24T19:50:03Z" finished-at="2020-08-24T19:50:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=criaNovoUsuario status=SUCCESS method=GerenciarTests.criaNovoUsuario()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="beforeTest" is-config="true" duration-ms="6361" started-at="2020-08-24T19:50:04Z" finished-at="2020-08-24T19:50:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.GerenciarTests.criaUsuarioNomeJaCadastrado()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="criaUsuarioNomeJaCadastrado()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="criaUsuarioNomeJaCadastrado" duration-ms="4590" started-at="2020-08-24T19:50:10Z" finished-at="2020-08-24T19:50:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- criaUsuarioNomeJaCadastrado -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="afterTest" is-config="true" duration-ms="768" started-at="2020-08-24T19:50:15Z" finished-at="2020-08-24T19:50:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=criaUsuarioNomeJaCadastrado status=SUCCESS method=GerenciarTests.criaUsuarioNomeJaCadastrado()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="beforeTest" is-config="true" duration-ms="6380" started-at="2020-08-24T19:50:16Z" finished-at="2020-08-24T19:50:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.GerenciarTests.criaUsuarioEmailJaCadastrado()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="criaUsuarioEmailJaCadastrado()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="criaUsuarioEmailJaCadastrado" duration-ms="4429" started-at="2020-08-24T19:50:22Z" finished-at="2020-08-24T19:50:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- criaUsuarioEmailJaCadastrado -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="afterTest" is-config="true" duration-ms="676" started-at="2020-08-24T19:50:26Z" finished-at="2020-08-24T19:50:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=criaUsuarioEmailJaCadastrado status=SUCCESS method=GerenciarTests.criaUsuarioEmailJaCadastrado()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="beforeTest" is-config="true" duration-ms="7170" started-at="2020-08-24T19:50:27Z" finished-at="2020-08-24T19:50:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.GerenciarTests.editarStadoParaRelease()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="editarStadoParaRelease()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="editarStadoParaRelease" duration-ms="4816" started-at="2020-08-24T19:50:34Z" finished-at="2020-08-24T19:50:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editarStadoParaRelease -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="afterTest" is-config="true" duration-ms="660" started-at="2020-08-24T19:50:39Z" finished-at="2020-08-24T19:50:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=editarStadoParaRelease status=SUCCESS method=GerenciarTests.editarStadoParaRelease()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="beforeTest" is-config="true" duration-ms="6980" started-at="2020-08-24T19:50:40Z" finished-at="2020-08-24T19:50:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.GerenciarTests.editarStadoParaEstavel()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="editarStadoParaEstavel()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="editarStadoParaEstavel" duration-ms="4121" started-at="2020-08-24T19:50:47Z" finished-at="2020-08-24T19:50:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editarStadoParaEstavel -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="afterTest" is-config="true" duration-ms="736" started-at="2020-08-24T19:50:51Z" finished-at="2020-08-24T19:50:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=editarStadoParaEstavel status=SUCCESS method=GerenciarTests.editarStadoParaEstavel()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="beforeTest" is-config="true" duration-ms="6406" started-at="2020-08-24T19:50:52Z" finished-at="2020-08-24T19:50:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.GerenciarTests.editarStadoParaObsoleto()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="editarStadoParaObsoleto()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="editarStadoParaObsoleto" duration-ms="4136" started-at="2020-08-24T19:50:58Z" finished-at="2020-08-24T19:51:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editarStadoParaObsoleto -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="afterTest" is-config="true" duration-ms="700" started-at="2020-08-24T19:51:02Z" finished-at="2020-08-24T19:51:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=editarStadoParaObsoleto status=SUCCESS method=GerenciarTests.editarStadoParaObsoleto()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="beforeTest" is-config="true" duration-ms="6289" started-at="2020-08-24T19:51:03Z" finished-at="2020-08-24T19:51:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.GerenciarTests.criarNovoProjeto()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="criarNovoProjeto()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="criarNovoProjeto" duration-ms="5748" started-at="2020-08-24T19:51:09Z" finished-at="2020-08-24T19:51:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- criarNovoProjeto -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="afterTest" is-config="true" duration-ms="666" started-at="2020-08-24T19:51:15Z" finished-at="2020-08-24T19:51:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=criarNovoProjeto status=SUCCESS method=GerenciarTests.criarNovoProjeto()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="beforeTest" is-config="true" duration-ms="6357" started-at="2020-08-24T19:51:15Z" finished-at="2020-08-24T19:51:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.GerenciarTests.alterarVisibilidadePrivado()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="alterarVisibilidadePrivado()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="alterarVisibilidadePrivado" duration-ms="4165" started-at="2020-08-24T19:51:22Z" finished-at="2020-08-24T19:51:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alterarVisibilidadePrivado -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="afterTest" is-config="true" duration-ms="950" started-at="2020-08-24T19:51:26Z" finished-at="2020-08-24T19:51:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alterarVisibilidadePrivado status=SUCCESS method=GerenciarTests.alterarVisibilidadePrivado()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="beforeTest" is-config="true" duration-ms="7821" started-at="2020-08-24T19:51:27Z" finished-at="2020-08-24T19:51:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.GerenciarTests.alterarVisibilidadePublico()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="alterarVisibilidadePublico()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="alterarVisibilidadePublico" duration-ms="4059" started-at="2020-08-24T19:51:35Z" finished-at="2020-08-24T19:51:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alterarVisibilidadePublico -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="afterTest" is-config="true" duration-ms="828" started-at="2020-08-24T19:51:39Z" finished-at="2020-08-24T19:51:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=alterarVisibilidadePublico status=SUCCESS method=GerenciarTests.alterarVisibilidadePublico()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="beforeTest" is-config="true" duration-ms="6504" started-at="2020-08-24T19:51:40Z" finished-at="2020-08-24T19:51:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.GerenciarTests.vincularSubProjeto()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="vincularSubProjeto()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="vincularSubProjeto" duration-ms="4204" started-at="2020-08-24T19:51:46Z" finished-at="2020-08-24T19:51:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- vincularSubProjeto -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="afterTest" is-config="true" duration-ms="654" started-at="2020-08-24T19:51:50Z" finished-at="2020-08-24T19:51:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=vincularSubProjeto status=SUCCESS method=GerenciarTests.vincularSubProjeto()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="beforeTest" is-config="true" duration-ms="6239" started-at="2020-08-24T19:51:51Z" finished-at="2020-08-24T19:51:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.GerenciarTests.desabilitarProjeto()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="desabilitarProjeto()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="desabilitarProjeto" duration-ms="4905" started-at="2020-08-24T19:51:57Z" finished-at="2020-08-24T19:52:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- desabilitarProjeto -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="afterTest" is-config="true" duration-ms="717" started-at="2020-08-24T19:52:02Z" finished-at="2020-08-24T19:52:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=desabilitarProjeto status=SUCCESS method=GerenciarTests.desabilitarProjeto()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="beforeTest" is-config="true" duration-ms="6542" started-at="2020-08-24T19:52:03Z" finished-at="2020-08-24T19:52:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.GerenciarTests.cadastrarProjetoNomeJaExistente()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="cadastrarProjetoNomeJaExistente()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="cadastrarProjetoNomeJaExistente" duration-ms="4294" started-at="2020-08-24T19:52:09Z" finished-at="2020-08-24T19:52:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cadastrarProjetoNomeJaExistente -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="afterTest" is-config="true" duration-ms="726" started-at="2020-08-24T19:52:14Z" finished-at="2020-08-24T19:52:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cadastrarProjetoNomeJaExistente status=SUCCESS method=GerenciarTests.cadastrarProjetoNomeJaExistente()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="beforeTest" is-config="true" duration-ms="6398" started-at="2020-08-24T19:52:14Z" finished-at="2020-08-24T19:52:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.GerenciarTests.editarNomeMarcador()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="editarNomeMarcador()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="editarNomeMarcador" duration-ms="4066" started-at="2020-08-24T19:52:21Z" finished-at="2020-08-24T19:52:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editarNomeMarcador -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="afterTest" is-config="true" duration-ms="629" started-at="2020-08-24T19:52:25Z" finished-at="2020-08-24T19:52:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=editarNomeMarcador status=SUCCESS method=GerenciarTests.editarNomeMarcador()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="beforeTest" is-config="true" duration-ms="6213" started-at="2020-08-24T19:52:26Z" finished-at="2020-08-24T19:52:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.GerenciarTests.cadastrarNomeMarcadorJaExistente()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="cadastrarNomeMarcadorJaExistente()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="cadastrarNomeMarcadorJaExistente" duration-ms="4489" started-at="2020-08-24T19:52:32Z" finished-at="2020-08-24T19:52:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cadastrarNomeMarcadorJaExistente -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="afterTest" is-config="true" duration-ms="644" started-at="2020-08-24T19:52:36Z" finished-at="2020-08-24T19:52:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=cadastrarNomeMarcadorJaExistente status=SUCCESS method=GerenciarTests.cadastrarNomeMarcadorJaExistente()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="beforeTest" is-config="true" duration-ms="6035" started-at="2020-08-24T19:52:37Z" finished-at="2020-08-24T19:52:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.GerenciarTests.editarDescricaoMarcador()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="editarDescricaoMarcador()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="editarDescricaoMarcador" duration-ms="4690" started-at="2020-08-24T19:52:43Z" finished-at="2020-08-24T19:52:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editarDescricaoMarcador -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="afterTest" is-config="true" duration-ms="793" started-at="2020-08-24T19:52:48Z" finished-at="2020-08-24T19:52:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=editarDescricaoMarcador status=SUCCESS method=GerenciarTests.editarDescricaoMarcador()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="beforeTest" is-config="true" duration-ms="6066" started-at="2020-08-24T19:52:48Z" finished-at="2020-08-24T19:52:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.GerenciarTests.criarNovoMarcador()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="criarNovoMarcador()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="criarNovoMarcador" duration-ms="4190" started-at="2020-08-24T19:52:54Z" finished-at="2020-08-24T19:52:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- criarNovoMarcador -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="afterTest" is-config="true" duration-ms="638" started-at="2020-08-24T19:52:59Z" finished-at="2020-08-24T19:52:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=criarNovoMarcador status=SUCCESS method=GerenciarTests.criarNovoMarcador()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.seleniumMantis.tests.GerenciarTests@302ce812]" name="afterSuite" is-config="true" duration-ms="475" started-at="2020-08-24T19:58:22Z" finished-at="2020-08-24T19:58:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.seleniumMantis.tests.GerenciarTests -->
+      <class name="com.seleniumMantis.tests.LoginTests">
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.LoginTests@143c5bc7]" name="beforeTest" is-config="true" duration-ms="6391" started-at="2020-08-24T19:52:59Z" finished-at="2020-08-24T19:53:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.LoginTests.loginSucesso()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginSucesso()[pri:0, instance:com.seleniumMantis.tests.LoginTests@143c5bc7]" name="loginSucesso" duration-ms="1911" started-at="2020-08-24T19:53:06Z" finished-at="2020-08-24T19:53:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSucesso -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.LoginTests@143c5bc7]" name="afterTest" is-config="true" duration-ms="1321" started-at="2020-08-24T19:53:08Z" finished-at="2020-08-24T19:53:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginSucesso status=SUCCESS method=LoginTests.loginSucesso()[pri:0, instance:com.seleniumMantis.tests.LoginTests@143c5bc7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.LoginTests@143c5bc7]" name="beforeTest" is-config="true" duration-ms="6334" started-at="2020-08-24T19:53:09Z" finished-at="2020-08-24T19:53:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.LoginTests.loginUsuarioSenhaIncorretos()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginUsuarioSenhaIncorretos()[pri:0, instance:com.seleniumMantis.tests.LoginTests@143c5bc7]" name="loginUsuarioSenhaIncorretos" duration-ms="1152" started-at="2020-08-24T19:53:15Z" finished-at="2020-08-24T19:53:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUsuarioSenhaIncorretos -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.LoginTests@143c5bc7]" name="afterTest" is-config="true" duration-ms="676" started-at="2020-08-24T19:53:16Z" finished-at="2020-08-24T19:53:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginUsuarioSenhaIncorretos status=SUCCESS method=LoginTests.loginUsuarioSenhaIncorretos()[pri:0, instance:com.seleniumMantis.tests.LoginTests@143c5bc7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.LoginTests@143c5bc7]" name="beforeTest" is-config="true" duration-ms="6345" started-at="2020-08-24T19:53:17Z" finished-at="2020-08-24T19:53:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.LoginTests.loginSenhaIncorreta()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginSenhaIncorreta()[pri:0, instance:com.seleniumMantis.tests.LoginTests@143c5bc7]" name="loginSenhaIncorreta" duration-ms="1288" started-at="2020-08-24T19:53:23Z" finished-at="2020-08-24T19:53:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSenhaIncorreta -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.LoginTests@143c5bc7]" name="afterTest" is-config="true" duration-ms="842" started-at="2020-08-24T19:53:25Z" finished-at="2020-08-24T19:53:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginSenhaIncorreta status=SUCCESS method=LoginTests.loginSenhaIncorreta()[pri:0, instance:com.seleniumMantis.tests.LoginTests@143c5bc7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.LoginTests@143c5bc7]" name="beforeTest" is-config="true" duration-ms="6336" started-at="2020-08-24T19:53:26Z" finished-at="2020-08-24T19:53:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.LoginTests.loginUsuarioDesativado()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginUsuarioDesativado()[pri:0, instance:com.seleniumMantis.tests.LoginTests@143c5bc7]" name="loginUsuarioDesativado" duration-ms="1336" started-at="2020-08-24T19:53:32Z" finished-at="2020-08-24T19:53:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUsuarioDesativado -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.LoginTests@143c5bc7]" name="afterTest" is-config="true" duration-ms="642" started-at="2020-08-24T19:53:33Z" finished-at="2020-08-24T19:53:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginUsuarioDesativado status=SUCCESS method=LoginTests.loginUsuarioDesativado()[pri:0, instance:com.seleniumMantis.tests.LoginTests@143c5bc7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.LoginTests@143c5bc7]" name="beforeTest" is-config="true" duration-ms="6222" started-at="2020-08-24T19:53:34Z" finished-at="2020-08-24T19:53:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.LoginTests.loginUtilizandoJavaScritp()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginUtilizandoJavaScritp()[pri:0, instance:com.seleniumMantis.tests.LoginTests@143c5bc7]" name="loginUtilizandoJavaScritp" duration-ms="1816" started-at="2020-08-24T19:53:40Z" finished-at="2020-08-24T19:53:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUtilizandoJavaScritp -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.LoginTests@143c5bc7]" name="afterTest" is-config="true" duration-ms="673" started-at="2020-08-24T19:53:42Z" finished-at="2020-08-24T19:53:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginUtilizandoJavaScritp status=SUCCESS method=LoginTests.loginUtilizandoJavaScritp()[pri:0, instance:com.seleniumMantis.tests.LoginTests@143c5bc7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.LoginTests@143c5bc7]" name="beforeTest" is-config="true" duration-ms="5900" started-at="2020-08-24T19:53:43Z" finished-at="2020-08-24T19:53:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.LoginTests.loginUtilizandoDataDriven(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginUtilizandoDataDriven(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.seleniumMantis.tests.LoginTests@143c5bc7]" name="loginUtilizandoDataDriven" duration-ms="1931" started-at="2020-08-24T19:53:49Z" data-provider="testdata" finished-at="2020-08-24T19:53:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[administrator]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[administrator]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[al1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUtilizandoDataDriven -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.LoginTests@143c5bc7]" name="afterTest" is-config="true" duration-ms="646" started-at="2020-08-24T19:53:51Z" finished-at="2020-08-24T19:53:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginUtilizandoDataDriven status=SUCCESS method=LoginTests.loginUtilizandoDataDriven(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.seleniumMantis.tests.LoginTests@143c5bc7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="beforeTest(java.lang.reflect.Method)[pri:0, instance:com.seleniumMantis.tests.LoginTests@143c5bc7]" name="beforeTest" is-config="true" duration-ms="6033" started-at="2020-08-24T19:53:52Z" finished-at="2020-08-24T19:53:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.seleniumMantis.tests.LoginTests.loginUtilizandoDataDriven(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="loginUtilizandoDataDriven(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.seleniumMantis.tests.LoginTests@143c5bc7]" name="loginUtilizandoDataDriven" duration-ms="2343" started-at="2020-08-24T19:53:58Z" data-provider="testdata" finished-at="2020-08-24T19:54:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[luana.assis]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[al2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginUtilizandoDataDriven -->
+        <test-method status="PASS" signature="afterTest(org.testng.ITestResult)[pri:0, instance:com.seleniumMantis.tests.LoginTests@143c5bc7]" name="afterTest" is-config="true" duration-ms="675" started-at="2020-08-24T19:54:00Z" finished-at="2020-08-24T19:54:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginUtilizandoDataDriven status=SUCCESS method=LoginTests.loginUtilizandoDataDriven(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.seleniumMantis.tests.LoginTests@143c5bc7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.seleniumMantis.tests.LoginTests -->
+    </test> <!-- C:/Users/Base2/Desktop/Ole/mantisJavaTemplate/src/test/java/com/seleniumMantis/tests -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

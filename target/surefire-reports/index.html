@@ -1,0 +1,1778 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-All_Test_Suite">
+              <span class="suite-name border-passed">All Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-All_Test_Suite">
+                    <span>C:\Users\Base2\Desktop\Ole\mantisJavaTemplate\templateJava\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-All_Test_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-All_Test_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-All_Test_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-All_Test_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-All_Test_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-All_Test_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">51 methods,   51 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-All_Test_Suite" class="hide-methods passed suite-All_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-All_Test_Suite -->
+                      <a href="#" panel-name="suite-All_Test_Suite" class="show-methods passed suite-All_Test_Suite"> (show)</a> <!-- show-methods passed suite-All_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-All_Test_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.TarefasTests" hash-for-method="adicionaMarcadorTarefa">adicionaMarcadorTarefa</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.TarefasTests" hash-for-method="adicionaRelacaoDuplicadaSucesso">adicionaRelacaoDuplicadaSucesso</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.TarefasTests" hash-for-method="adicionaRelacaoFilhoSucesso">adicionaRelacaoFilhoSucesso</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.TarefasTests" hash-for-method="adicionaRelacaoInvalida">adicionaRelacaoInvalida</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.TarefasTests" hash-for-method="adicionaRelacaoPaiSucesso">adicionaRelacaoPaiSucesso</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.TarefasTests" hash-for-method="adicionaRelacaoPossuiDuplicidadeSucesso">adicionaRelacaoPossuiDuplicidadeSucesso</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.TarefasTests" hash-for-method="adicionaRelacaoSucesso">adicionaRelacaoSucesso</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.GerenciarTests" hash-for-method="alteraNomeRealUsuario">alteraNomeRealUsuario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.GerenciarTests" hash-for-method="alteraNomeUsuario">alteraNomeUsuario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.TarefasTests" hash-for-method="alteraPrioridadeTarefa">alteraPrioridadeTarefa</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.GerenciarTests" hash-for-method="alterarVisibilidadePrivado">alterarVisibilidadePrivado</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.GerenciarTests" hash-for-method="alterarVisibilidadePublico">alterarVisibilidadePublico</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.GerenciarTests" hash-for-method="apagaUsuario">apagaUsuario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.TarefasTests" hash-for-method="atribuiTarefaUsuario">atribuiTarefaUsuario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.GerenciarTests" hash-for-method="cadastrarNomeMarcadorJaExistente">cadastrarNomeMarcadorJaExistente</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.GerenciarTests" hash-for-method="cadastrarProjetoNomeJaExistente">cadastrarProjetoNomeJaExistente</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.GerenciarTests" hash-for-method="criaNovoUsuario">criaNovoUsuario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.TarefasTests" hash-for-method="criaTarefaSucesso">criaTarefaSucesso</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.GerenciarTests" hash-for-method="criaUsuarioEmailJaCadastrado">criaUsuarioEmailJaCadastrado</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.GerenciarTests" hash-for-method="criaUsuarioNomeJaCadastrado">criaUsuarioNomeJaCadastrado</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.GerenciarTests" hash-for-method="criarNovoMarcador">criarNovoMarcador</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.GerenciarTests" hash-for-method="criarNovoProjeto">criarNovoProjeto</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.GerenciarTests" hash-for-method="desabilitarProjeto">desabilitarProjeto</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.GerenciarTests" hash-for-method="editarDescricaoMarcador">editarDescricaoMarcador</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.GerenciarTests" hash-for-method="editarNomeMarcador">editarNomeMarcador</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.GerenciarTests" hash-for-method="editarStadoParaEstavel">editarStadoParaEstavel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.GerenciarTests" hash-for-method="editarStadoParaObsoleto">editarStadoParaObsoleto</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.GerenciarTests" hash-for-method="editarStadoParaRelease">editarStadoParaRelease</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.GerenciarTests" hash-for-method="inativaUsuario">inativaUsuario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.LoginTests" hash-for-method="loginSenhaIncorreta">loginSenhaIncorreta</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.LoginTests" hash-for-method="loginSucesso">loginSucesso</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.LoginTests" hash-for-method="loginUsuarioDesativado">loginUsuarioDesativado</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.LoginTests" hash-for-method="loginUsuarioSenhaIncorretos">loginUsuarioSenhaIncorretos</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.LoginTests" hash-for-method="loginUtilizandoDataDriven(luana.assis, 123456, al2)">loginUtilizandoDataDriven(luana.assis, 123456, al2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.LoginTests" hash-for-method="loginUtilizandoDataDriven(administrator, administrator, al1)">loginUtilizandoDataDriven(administrator, administrator, al1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.LoginTests" hash-for-method="loginUtilizandoJavaScritp">loginUtilizandoJavaScritp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.TarefasTests" hash-for-method="removeMarcadorTarefa">removeMarcadorTarefa</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.TarefasTests" hash-for-method="tentaResolverTarefaComStatusNovo">tentaResolverTarefaComStatusNovo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.TarefasTests" hash-for-method="tentaResolverTarefaSucesso">tentaResolverTarefaSucesso</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.GerenciarTests" hash-for-method="verificaAlteracaoEmailUsuario">verificaAlteracaoEmailUsuario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.TarefasTests" hash-for-method="verificaFiltroTarefa">verificaFiltroTarefa</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.ProjetoTests" hash-for-method="verificaProjetoExistente">verificaProjetoExistente</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.ProjetoTests" hash-for-method="verificaSelecaoProjetoExistente">verificaSelecaoProjetoExistente</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.TarefasTests" hash-for-method="verificaTarefaCriadaEmMinhaVisao">verificaTarefaCriadaEmMinhaVisao</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.GerenciarTests" hash-for-method="verificaTrocaPerfilAdministrador">verificaTrocaPerfilAdministrador</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.GerenciarTests" hash-for-method="verificaTrocaPerfilAtualizador">verificaTrocaPerfilAtualizador</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.GerenciarTests" hash-for-method="verificaTrocaPerfilDesenvolvedor">verificaTrocaPerfilDesenvolvedor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.GerenciarTests" hash-for-method="verificaTrocaPerfilGerente">verificaTrocaPerfilGerente</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.GerenciarTests" hash-for-method="verificaTrocaPerfilRelator">verificaTrocaPerfilRelator</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.GerenciarTests" hash-for-method="verificaTrocaPerfilVisualizador">verificaTrocaPerfilVisualizador</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-All_Test_Suite" title="com.seleniumMantis.tests.GerenciarTests" hash-for-method="vincularSubProjeto">vincularSubProjeto</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-All_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-All_Test_Suite" class="panel All_Test_Suite">
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.seleniumMantis.tests.GerenciarTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="alteraNomeRealUsuario">
+                  </a> <!-- alteraNomeRealUsuario -->
+                  <span class="method-name">alteraNomeRealUsuario</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="alteraNomeUsuario">
+                  </a> <!-- alteraNomeUsuario -->
+                  <span class="method-name">alteraNomeUsuario</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="alterarVisibilidadePrivado">
+                  </a> <!-- alterarVisibilidadePrivado -->
+                  <span class="method-name">alterarVisibilidadePrivado</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="alterarVisibilidadePublico">
+                  </a> <!-- alterarVisibilidadePublico -->
+                  <span class="method-name">alterarVisibilidadePublico</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="apagaUsuario">
+                  </a> <!-- apagaUsuario -->
+                  <span class="method-name">apagaUsuario</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cadastrarNomeMarcadorJaExistente">
+                  </a> <!-- cadastrarNomeMarcadorJaExistente -->
+                  <span class="method-name">cadastrarNomeMarcadorJaExistente</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="cadastrarProjetoNomeJaExistente">
+                  </a> <!-- cadastrarProjetoNomeJaExistente -->
+                  <span class="method-name">cadastrarProjetoNomeJaExistente</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="criaNovoUsuario">
+                  </a> <!-- criaNovoUsuario -->
+                  <span class="method-name">criaNovoUsuario</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="criaUsuarioEmailJaCadastrado">
+                  </a> <!-- criaUsuarioEmailJaCadastrado -->
+                  <span class="method-name">criaUsuarioEmailJaCadastrado</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="criaUsuarioNomeJaCadastrado">
+                  </a> <!-- criaUsuarioNomeJaCadastrado -->
+                  <span class="method-name">criaUsuarioNomeJaCadastrado</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="criarNovoMarcador">
+                  </a> <!-- criarNovoMarcador -->
+                  <span class="method-name">criarNovoMarcador</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="criarNovoProjeto">
+                  </a> <!-- criarNovoProjeto -->
+                  <span class="method-name">criarNovoProjeto</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="desabilitarProjeto">
+                  </a> <!-- desabilitarProjeto -->
+                  <span class="method-name">desabilitarProjeto</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editarDescricaoMarcador">
+                  </a> <!-- editarDescricaoMarcador -->
+                  <span class="method-name">editarDescricaoMarcador</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editarNomeMarcador">
+                  </a> <!-- editarNomeMarcador -->
+                  <span class="method-name">editarNomeMarcador</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editarStadoParaEstavel">
+                  </a> <!-- editarStadoParaEstavel -->
+                  <span class="method-name">editarStadoParaEstavel</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editarStadoParaObsoleto">
+                  </a> <!-- editarStadoParaObsoleto -->
+                  <span class="method-name">editarStadoParaObsoleto</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editarStadoParaRelease">
+                  </a> <!-- editarStadoParaRelease -->
+                  <span class="method-name">editarStadoParaRelease</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="inativaUsuario">
+                  </a> <!-- inativaUsuario -->
+                  <span class="method-name">inativaUsuario</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaAlteracaoEmailUsuario">
+                  </a> <!-- verificaAlteracaoEmailUsuario -->
+                  <span class="method-name">verificaAlteracaoEmailUsuario</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaTrocaPerfilAdministrador">
+                  </a> <!-- verificaTrocaPerfilAdministrador -->
+                  <span class="method-name">verificaTrocaPerfilAdministrador</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaTrocaPerfilAtualizador">
+                  </a> <!-- verificaTrocaPerfilAtualizador -->
+                  <span class="method-name">verificaTrocaPerfilAtualizador</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaTrocaPerfilDesenvolvedor">
+                  </a> <!-- verificaTrocaPerfilDesenvolvedor -->
+                  <span class="method-name">verificaTrocaPerfilDesenvolvedor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaTrocaPerfilGerente">
+                  </a> <!-- verificaTrocaPerfilGerente -->
+                  <span class="method-name">verificaTrocaPerfilGerente</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaTrocaPerfilRelator">
+                  </a> <!-- verificaTrocaPerfilRelator -->
+                  <span class="method-name">verificaTrocaPerfilRelator</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaTrocaPerfilVisualizador">
+                  </a> <!-- verificaTrocaPerfilVisualizador -->
+                  <span class="method-name">verificaTrocaPerfilVisualizador</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="vincularSubProjeto">
+                  </a> <!-- vincularSubProjeto -->
+                  <span class="method-name">vincularSubProjeto</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.seleniumMantis.tests.TarefasTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="adicionaMarcadorTarefa">
+                  </a> <!-- adicionaMarcadorTarefa -->
+                  <span class="method-name">adicionaMarcadorTarefa</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="adicionaRelacaoDuplicadaSucesso">
+                  </a> <!-- adicionaRelacaoDuplicadaSucesso -->
+                  <span class="method-name">adicionaRelacaoDuplicadaSucesso</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="adicionaRelacaoFilhoSucesso">
+                  </a> <!-- adicionaRelacaoFilhoSucesso -->
+                  <span class="method-name">adicionaRelacaoFilhoSucesso</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="adicionaRelacaoInvalida">
+                  </a> <!-- adicionaRelacaoInvalida -->
+                  <span class="method-name">adicionaRelacaoInvalida</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="adicionaRelacaoPaiSucesso">
+                  </a> <!-- adicionaRelacaoPaiSucesso -->
+                  <span class="method-name">adicionaRelacaoPaiSucesso</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="adicionaRelacaoPossuiDuplicidadeSucesso">
+                  </a> <!-- adicionaRelacaoPossuiDuplicidadeSucesso -->
+                  <span class="method-name">adicionaRelacaoPossuiDuplicidadeSucesso</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="adicionaRelacaoSucesso">
+                  </a> <!-- adicionaRelacaoSucesso -->
+                  <span class="method-name">adicionaRelacaoSucesso</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="alteraPrioridadeTarefa">
+                  </a> <!-- alteraPrioridadeTarefa -->
+                  <span class="method-name">alteraPrioridadeTarefa</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="atribuiTarefaUsuario">
+                  </a> <!-- atribuiTarefaUsuario -->
+                  <span class="method-name">atribuiTarefaUsuario</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="criaTarefaSucesso">
+                  </a> <!-- criaTarefaSucesso -->
+                  <span class="method-name">criaTarefaSucesso</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeMarcadorTarefa">
+                  </a> <!-- removeMarcadorTarefa -->
+                  <span class="method-name">removeMarcadorTarefa</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tentaResolverTarefaComStatusNovo">
+                  </a> <!-- tentaResolverTarefaComStatusNovo -->
+                  <span class="method-name">tentaResolverTarefaComStatusNovo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="tentaResolverTarefaSucesso">
+                  </a> <!-- tentaResolverTarefaSucesso -->
+                  <span class="method-name">tentaResolverTarefaSucesso</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaFiltroTarefa">
+                  </a> <!-- verificaFiltroTarefa -->
+                  <span class="method-name">verificaFiltroTarefa</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaTarefaCriadaEmMinhaVisao">
+                  </a> <!-- verificaTarefaCriadaEmMinhaVisao -->
+                  <span class="method-name">verificaTarefaCriadaEmMinhaVisao</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.seleniumMantis.tests.ProjetoTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaProjetoExistente">
+                  </a> <!-- verificaProjetoExistente -->
+                  <span class="method-name">verificaProjetoExistente</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verificaSelecaoProjetoExistente">
+                  </a> <!-- verificaSelecaoProjetoExistente -->
+                  <span class="method-name">verificaSelecaoProjetoExistente</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+          <div class="suite-All_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.seleniumMantis.tests.LoginTests</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSenhaIncorreta">
+                  </a> <!-- loginSenhaIncorreta -->
+                  <span class="method-name">loginSenhaIncorreta</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginSucesso">
+                  </a> <!-- loginSucesso -->
+                  <span class="method-name">loginSucesso</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginUsuarioDesativado">
+                  </a> <!-- loginUsuarioDesativado -->
+                  <span class="method-name">loginUsuarioDesativado</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginUsuarioSenhaIncorretos">
+                  </a> <!-- loginUsuarioSenhaIncorretos -->
+                  <span class="method-name">loginUsuarioSenhaIncorretos</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginUtilizandoDataDriven(luana.assis, 123456, al2)">
+                  </a> <!-- loginUtilizandoDataDriven(luana.assis, 123456, al2) -->
+                  <span class="method-name">loginUtilizandoDataDriven</span>
+                  <span class="parameters">(luana.assis, 123456, al2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginUtilizandoDataDriven(administrator, administrator, al1)">
+                  </a> <!-- loginUtilizandoDataDriven(administrator, administrator, al1) -->
+                  <span class="method-name">loginUtilizandoDataDriven</span>
+                  <span class="parameters">(administrator, administrator, al1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginUtilizandoJavaScritp">
+                  </a> <!-- loginUtilizandoJavaScritp -->
+                  <span class="method-name">loginUtilizandoJavaScritp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Test_Suite-class-passed -->
+        </div> <!-- panel All_Test_Suite -->
+        <div panel-name="test-xml-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Base2\Desktop\Ole\mantisJavaTemplate\templateJava\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;All Test Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;C:/Users/Base2/Desktop/Ole/mantisJavaTemplate/src/test/java/com/seleniumMantis/tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.seleniumMantis.tests.GerenciarTests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verificaTrocaPerfilAdministrador&quot;/&gt;
+          &lt;include name=&quot;inativaUsuario&quot;/&gt;
+          &lt;include name=&quot;verificaTrocaPerfilGerente&quot;/&gt;
+          &lt;include name=&quot;verificaTrocaPerfilDesenvolvedor&quot;/&gt;
+          &lt;include name=&quot;verificaTrocaPerfilAtualizador&quot;/&gt;
+          &lt;include name=&quot;verificaTrocaPerfilRelator&quot;/&gt;
+          &lt;include name=&quot;verificaTrocaPerfilVisualizador&quot;/&gt;
+          &lt;include name=&quot;verificaAlteracaoEmailUsuario&quot;/&gt;
+          &lt;include name=&quot;apagaUsuario&quot;/&gt;
+          &lt;include name=&quot;alteraNomeUsuario&quot;/&gt;
+          &lt;include name=&quot;alteraNomeRealUsuario&quot;/&gt;
+          &lt;include name=&quot;criaNovoUsuario&quot;/&gt;
+          &lt;include name=&quot;criaUsuarioNomeJaCadastrado&quot;/&gt;
+          &lt;include name=&quot;criaUsuarioEmailJaCadastrado&quot;/&gt;
+          &lt;include name=&quot;editarStadoParaRelease&quot;/&gt;
+          &lt;include name=&quot;editarStadoParaEstavel&quot;/&gt;
+          &lt;include name=&quot;editarStadoParaObsoleto&quot;/&gt;
+          &lt;include name=&quot;criarNovoProjeto&quot;/&gt;
+          &lt;include name=&quot;alterarVisibilidadePrivado&quot;/&gt;
+          &lt;include name=&quot;alterarVisibilidadePublico&quot;/&gt;
+          &lt;include name=&quot;vincularSubProjeto&quot;/&gt;
+          &lt;include name=&quot;desabilitarProjeto&quot;/&gt;
+          &lt;include name=&quot;cadastrarProjetoNomeJaExistente&quot;/&gt;
+          &lt;include name=&quot;editarNomeMarcador&quot;/&gt;
+          &lt;include name=&quot;cadastrarNomeMarcadorJaExistente&quot;/&gt;
+          &lt;include name=&quot;editarDescricaoMarcador&quot;/&gt;
+          &lt;include name=&quot;criarNovoMarcador&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.seleniumMantis.tests.GerenciarTests --&gt;
+      &lt;class name=&quot;com.seleniumMantis.tests.LoginTests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;loginSucesso&quot;/&gt;
+          &lt;include name=&quot;loginUsuarioSenhaIncorretos&quot;/&gt;
+          &lt;include name=&quot;loginSenhaIncorreta&quot;/&gt;
+          &lt;include name=&quot;loginUsuarioDesativado&quot;/&gt;
+          &lt;include name=&quot;loginUtilizandoJavaScritp&quot;/&gt;
+          &lt;include name=&quot;loginUtilizandoDataDriven&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.seleniumMantis.tests.LoginTests --&gt;
+      &lt;class name=&quot;com.seleniumMantis.tests.ProjetoTests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verificaProjetoExistente&quot;/&gt;
+          &lt;include name=&quot;verificaSelecaoProjetoExistente&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.seleniumMantis.tests.ProjetoTests --&gt;
+      &lt;class name=&quot;com.seleniumMantis.tests.TarefasTests&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;criaTarefaSucesso&quot;/&gt;
+          &lt;include name=&quot;verificaTarefaCriadaEmMinhaVisao&quot;/&gt;
+          &lt;include name=&quot;verificaFiltroTarefa&quot;/&gt;
+          &lt;include name=&quot;adicionaMarcadorTarefa&quot;/&gt;
+          &lt;include name=&quot;removeMarcadorTarefa&quot;/&gt;
+          &lt;include name=&quot;adicionaRelacaoInvalida&quot;/&gt;
+          &lt;include name=&quot;adicionaRelacaoSucesso&quot;/&gt;
+          &lt;include name=&quot;adicionaRelacaoPaiSucesso&quot;/&gt;
+          &lt;include name=&quot;adicionaRelacaoFilhoSucesso&quot;/&gt;
+          &lt;include name=&quot;adicionaRelacaoDuplicadaSucesso&quot;/&gt;
+          &lt;include name=&quot;adicionaRelacaoPossuiDuplicidadeSucesso&quot;/&gt;
+          &lt;include name=&quot;atribuiTarefaUsuario&quot;/&gt;
+          &lt;include name=&quot;tentaResolverTarefaComStatusNovo&quot;/&gt;
+          &lt;include name=&quot;tentaResolverTarefaSucesso&quot;/&gt;
+          &lt;include name=&quot;alteraPrioridadeTarefa&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.seleniumMantis.tests.TarefasTests --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- C:/Users/Base2/Desktop/Ole/mantisJavaTemplate/src/test/java/com/seleniumMantis/tests --&gt;
+&lt;/suite&gt; &lt;!-- All Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">C:/Users/Base2/Desktop/Ole/mantisJavaTemplate/src/test/java/com/seleniumMantis/tests (4 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_All_Test_Suite');
+function tableData_All_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(51);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'criaNovoUsuario')
+data.setCell(0, 2, 'com.seleniumMantis.tests.GerenciarTests')
+data.setCell(0, 3, 124370);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'atribuiTarefaUsuario')
+data.setCell(1, 2, 'com.seleniumMantis.tests.TarefasTests')
+data.setCell(1, 3, 9985);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'removeMarcadorTarefa')
+data.setCell(2, 2, 'com.seleniumMantis.tests.TarefasTests')
+data.setCell(2, 3, 9671);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'criaTarefaSucesso')
+data.setCell(3, 2, 'com.seleniumMantis.tests.TarefasTests')
+data.setCell(3, 3, 9602);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'adicionaRelacaoSucesso')
+data.setCell(4, 2, 'com.seleniumMantis.tests.TarefasTests')
+data.setCell(4, 3, 9562);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'adicionaRelacaoPossuiDuplicidadeSucesso')
+data.setCell(5, 2, 'com.seleniumMantis.tests.TarefasTests')
+data.setCell(5, 3, 9371);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'adicionaRelacaoFilhoSucesso')
+data.setCell(6, 2, 'com.seleniumMantis.tests.TarefasTests')
+data.setCell(6, 3, 9356);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'tentaResolverTarefaSucesso')
+data.setCell(7, 2, 'com.seleniumMantis.tests.TarefasTests')
+data.setCell(7, 3, 9115);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'alteraPrioridadeTarefa')
+data.setCell(8, 2, 'com.seleniumMantis.tests.TarefasTests')
+data.setCell(8, 3, 9026);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'tentaResolverTarefaComStatusNovo')
+data.setCell(9, 2, 'com.seleniumMantis.tests.TarefasTests')
+data.setCell(9, 3, 8873);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'adicionaRelacaoDuplicadaSucesso')
+data.setCell(10, 2, 'com.seleniumMantis.tests.TarefasTests')
+data.setCell(10, 3, 8794);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'adicionaRelacaoPaiSucesso')
+data.setCell(11, 2, 'com.seleniumMantis.tests.TarefasTests')
+data.setCell(11, 3, 8627);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'adicionaMarcadorTarefa')
+data.setCell(12, 2, 'com.seleniumMantis.tests.TarefasTests')
+data.setCell(12, 3, 8587);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'adicionaRelacaoInvalida')
+data.setCell(13, 2, 'com.seleniumMantis.tests.TarefasTests')
+data.setCell(13, 3, 8559);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verificaFiltroTarefa')
+data.setCell(14, 2, 'com.seleniumMantis.tests.TarefasTests')
+data.setCell(14, 3, 8488);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verificaTarefaCriadaEmMinhaVisao')
+data.setCell(15, 2, 'com.seleniumMantis.tests.TarefasTests')
+data.setCell(15, 3, 8059);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verificaTrocaPerfilAdministrador')
+data.setCell(16, 2, 'com.seleniumMantis.tests.GerenciarTests')
+data.setCell(16, 3, 6119);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verificaTrocaPerfilAtualizador')
+data.setCell(17, 2, 'com.seleniumMantis.tests.GerenciarTests')
+data.setCell(17, 3, 5900);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'criarNovoProjeto')
+data.setCell(18, 2, 'com.seleniumMantis.tests.GerenciarTests')
+data.setCell(18, 3, 5748);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verificaAlteracaoEmailUsuario')
+data.setCell(19, 2, 'com.seleniumMantis.tests.GerenciarTests')
+data.setCell(19, 3, 5475);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'apagaUsuario')
+data.setCell(20, 2, 'com.seleniumMantis.tests.GerenciarTests')
+data.setCell(20, 3, 5362);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verificaTrocaPerfilDesenvolvedor')
+data.setCell(21, 2, 'com.seleniumMantis.tests.GerenciarTests')
+data.setCell(21, 3, 5351);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'alteraNomeUsuario')
+data.setCell(22, 2, 'com.seleniumMantis.tests.GerenciarTests')
+data.setCell(22, 3, 5202);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'alteraNomeRealUsuario')
+data.setCell(23, 2, 'com.seleniumMantis.tests.GerenciarTests')
+data.setCell(23, 3, 5131);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verificaTrocaPerfilGerente')
+data.setCell(24, 2, 'com.seleniumMantis.tests.GerenciarTests')
+data.setCell(24, 3, 4922);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verificaTrocaPerfilRelator')
+data.setCell(25, 2, 'com.seleniumMantis.tests.GerenciarTests')
+data.setCell(25, 3, 4906);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'desabilitarProjeto')
+data.setCell(26, 2, 'com.seleniumMantis.tests.GerenciarTests')
+data.setCell(26, 3, 4905);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'editarStadoParaRelease')
+data.setCell(27, 2, 'com.seleniumMantis.tests.GerenciarTests')
+data.setCell(27, 3, 4816);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'editarDescricaoMarcador')
+data.setCell(28, 2, 'com.seleniumMantis.tests.GerenciarTests')
+data.setCell(28, 3, 4690);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'criaUsuarioNomeJaCadastrado')
+data.setCell(29, 2, 'com.seleniumMantis.tests.GerenciarTests')
+data.setCell(29, 3, 4590);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'cadastrarNomeMarcadorJaExistente')
+data.setCell(30, 2, 'com.seleniumMantis.tests.GerenciarTests')
+data.setCell(30, 3, 4489);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'criaUsuarioEmailJaCadastrado')
+data.setCell(31, 2, 'com.seleniumMantis.tests.GerenciarTests')
+data.setCell(31, 3, 4429);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'inativaUsuario')
+data.setCell(32, 2, 'com.seleniumMantis.tests.GerenciarTests')
+data.setCell(32, 3, 4347);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'cadastrarProjetoNomeJaExistente')
+data.setCell(33, 2, 'com.seleniumMantis.tests.GerenciarTests')
+data.setCell(33, 3, 4294);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'verificaTrocaPerfilVisualizador')
+data.setCell(34, 2, 'com.seleniumMantis.tests.GerenciarTests')
+data.setCell(34, 3, 4291);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'vincularSubProjeto')
+data.setCell(35, 2, 'com.seleniumMantis.tests.GerenciarTests')
+data.setCell(35, 3, 4204);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'criarNovoMarcador')
+data.setCell(36, 2, 'com.seleniumMantis.tests.GerenciarTests')
+data.setCell(36, 3, 4190);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'alterarVisibilidadePrivado')
+data.setCell(37, 2, 'com.seleniumMantis.tests.GerenciarTests')
+data.setCell(37, 3, 4165);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'editarStadoParaObsoleto')
+data.setCell(38, 2, 'com.seleniumMantis.tests.GerenciarTests')
+data.setCell(38, 3, 4136);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'editarStadoParaEstavel')
+data.setCell(39, 2, 'com.seleniumMantis.tests.GerenciarTests')
+data.setCell(39, 3, 4121);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'editarNomeMarcador')
+data.setCell(40, 2, 'com.seleniumMantis.tests.GerenciarTests')
+data.setCell(40, 3, 4066);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'alterarVisibilidadePublico')
+data.setCell(41, 2, 'com.seleniumMantis.tests.GerenciarTests')
+data.setCell(41, 3, 4059);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'verificaProjetoExistente')
+data.setCell(42, 2, 'com.seleniumMantis.tests.ProjetoTests')
+data.setCell(42, 3, 3935);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'verificaSelecaoProjetoExistente')
+data.setCell(43, 2, 'com.seleniumMantis.tests.ProjetoTests')
+data.setCell(43, 3, 3611);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'loginUtilizandoDataDriven')
+data.setCell(44, 2, 'com.seleniumMantis.tests.LoginTests')
+data.setCell(44, 3, 2343);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'loginUtilizandoDataDriven')
+data.setCell(45, 2, 'com.seleniumMantis.tests.LoginTests')
+data.setCell(45, 3, 1931);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'loginSucesso')
+data.setCell(46, 2, 'com.seleniumMantis.tests.LoginTests')
+data.setCell(46, 3, 1911);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'loginUtilizandoJavaScritp')
+data.setCell(47, 2, 'com.seleniumMantis.tests.LoginTests')
+data.setCell(47, 3, 1816);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'loginUsuarioDesativado')
+data.setCell(48, 2, 'com.seleniumMantis.tests.LoginTests')
+data.setCell(48, 3, 1336);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'loginSenhaIncorreta')
+data.setCell(49, 2, 'com.seleniumMantis.tests.LoginTests')
+data.setCell(49, 3, 1288);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'loginUsuarioSenhaIncorretos')
+data.setCell(50, 2, 'com.seleniumMantis.tests.LoginTests')
+data.setCell(50, 3, 1152);
+window.suiteTableData['All_Test_Suite']= { tableData: data, tableDiv: 'times-div-All_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-All_Test_Suite">
+              </div> <!-- times-div-All_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for All Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">6 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.seleniumMantis.tests.TarefasTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.seleniumMantis.tests.ProjetoTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.seleniumMantis.tests.LoginTests</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">afterSuite</span>
+                <br/>
+                <span class="ignored-method-name">beforeSuite</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-All_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.seleniumMantis.tests.GerenciarTests</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.GerenciarTests.verificaTrocaPerfilAdministrador())</span>
+                <span class="method-start">769 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verificaTrocaPerfilAdministrador</span>
+                <span class="method-start">8264 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=verificaTrocaPerfilAdministrador status=SUCCESS method=GerenciarTests.verificaTroca...)</span>
+                <span class="method-start">14386 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.GerenciarTests.inativaUsuario())</span>
+                <span class="method-start">15242 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">inativaUsuario</span>
+                <span class="method-start">21343 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=inativaUsuario status=SUCCESS method=GerenciarTests.inativaUsuario()[pri:0, instanc...)</span>
+                <span class="method-start">25690 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.GerenciarTests.verificaTrocaPerfilGerente())</span>
+                <span class="method-start">26426 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verificaTrocaPerfilGerente</span>
+                <span class="method-start">32779 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=verificaTrocaPerfilGerente status=SUCCESS method=GerenciarTests.verificaTrocaPerfil...)</span>
+                <span class="method-start">37702 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.GerenciarTests.verificaTrocaPerfilDesenvolvedor())</span>
+                <span class="method-start">38422 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verificaTrocaPerfilDesenvolvedor</span>
+                <span class="method-start">44503 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=verificaTrocaPerfilDesenvolvedor status=SUCCESS method=GerenciarTests.verificaTroca...)</span>
+                <span class="method-start">49854 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.GerenciarTests.verificaTrocaPerfilAtualizador())</span>
+                <span class="method-start">51029 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verificaTrocaPerfilAtualizador</span>
+                <span class="method-start">57366 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=verificaTrocaPerfilAtualizador status=SUCCESS method=GerenciarTests.verificaTrocaPe...)</span>
+                <span class="method-start">63266 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.GerenciarTests.verificaTrocaPerfilRelator())</span>
+                <span class="method-start">63966 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verificaTrocaPerfilRelator</span>
+                <span class="method-start">70169 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=verificaTrocaPerfilRelator status=SUCCESS method=GerenciarTests.verificaTrocaPerfil...)</span>
+                <span class="method-start">75075 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.GerenciarTests.verificaTrocaPerfilVisualizador())</span>
+                <span class="method-start">75723 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verificaTrocaPerfilVisualizador</span>
+                <span class="method-start">81817 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=verificaTrocaPerfilVisualizador status=SUCCESS method=GerenciarTests.verificaTrocaP...)</span>
+                <span class="method-start">86108 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.GerenciarTests.verificaAlteracaoEmailUsuario())</span>
+                <span class="method-start">86832 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verificaAlteracaoEmailUsuario</span>
+                <span class="method-start">93325 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=verificaAlteracaoEmailUsuario status=SUCCESS method=GerenciarTests.verificaAlteraca...)</span>
+                <span class="method-start">98800 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.GerenciarTests.apagaUsuario())</span>
+                <span class="method-start">99737 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">apagaUsuario</span>
+                <span class="method-start">105757 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=apagaUsuario status=SUCCESS method=GerenciarTests.apagaUsuario()[pri:0, instance:co...)</span>
+                <span class="method-start">111119 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.GerenciarTests.alteraNomeUsuario())</span>
+                <span class="method-start">111920 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">alteraNomeUsuario</span>
+                <span class="method-start">118161 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=alteraNomeUsuario status=SUCCESS method=GerenciarTests.alteraNomeUsuario()[pri:0, i...)</span>
+                <span class="method-start">123363 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.GerenciarTests.alteraNomeRealUsuario())</span>
+                <span class="method-start">123998 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">alteraNomeRealUsuario</span>
+                <span class="method-start">130558 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=alteraNomeRealUsuario status=SUCCESS method=GerenciarTests.alteraNomeRealUsuario()[...)</span>
+                <span class="method-start">135689 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.GerenciarTests.criaNovoUsuario())</span>
+                <span class="method-start">136486 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">criaNovoUsuario</span>
+                <span class="method-start">143003 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=criaNovoUsuario status=SUCCESS method=GerenciarTests.criaNovoUsuario()[pri:0, insta...)</span>
+                <span class="method-start">267373 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.GerenciarTests.criaUsuarioNomeJaCadastrado())</span>
+                <span class="method-start">268077 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">criaUsuarioNomeJaCadastrado</span>
+                <span class="method-start">274438 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=criaUsuarioNomeJaCadastrado status=SUCCESS method=GerenciarTests.criaUsuarioNomeJaC...)</span>
+                <span class="method-start">279028 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.GerenciarTests.criaUsuarioEmailJaCadastrado())</span>
+                <span class="method-start">279796 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">criaUsuarioEmailJaCadastrado</span>
+                <span class="method-start">286176 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=criaUsuarioEmailJaCadastrado status=SUCCESS method=GerenciarTests.criaUsuarioEmailJ...)</span>
+                <span class="method-start">290605 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.GerenciarTests.editarStadoParaRelease())</span>
+                <span class="method-start">291281 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editarStadoParaRelease</span>
+                <span class="method-start">298451 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=editarStadoParaRelease status=SUCCESS method=GerenciarTests.editarStadoParaRelease(...)</span>
+                <span class="method-start">303268 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.GerenciarTests.editarStadoParaEstavel())</span>
+                <span class="method-start">303929 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editarStadoParaEstavel</span>
+                <span class="method-start">310909 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=editarStadoParaEstavel status=SUCCESS method=GerenciarTests.editarStadoParaEstavel(...)</span>
+                <span class="method-start">315030 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.GerenciarTests.editarStadoParaObsoleto())</span>
+                <span class="method-start">315768 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editarStadoParaObsoleto</span>
+                <span class="method-start">322174 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=editarStadoParaObsoleto status=SUCCESS method=GerenciarTests.editarStadoParaObsolet...)</span>
+                <span class="method-start">326311 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.GerenciarTests.criarNovoProjeto())</span>
+                <span class="method-start">327012 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">criarNovoProjeto</span>
+                <span class="method-start">333301 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=criarNovoProjeto status=SUCCESS method=GerenciarTests.criarNovoProjeto()[pri:0, ins...)</span>
+                <span class="method-start">339049 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.GerenciarTests.alterarVisibilidadePrivado())</span>
+                <span class="method-start">339715 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">alterarVisibilidadePrivado</span>
+                <span class="method-start">346072 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=alterarVisibilidadePrivado status=SUCCESS method=GerenciarTests.alterarVisibilidade...)</span>
+                <span class="method-start">350237 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.GerenciarTests.alterarVisibilidadePublico())</span>
+                <span class="method-start">351187 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">alterarVisibilidadePublico</span>
+                <span class="method-start">359008 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=alterarVisibilidadePublico status=SUCCESS method=GerenciarTests.alterarVisibilidade...)</span>
+                <span class="method-start">363068 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.GerenciarTests.vincularSubProjeto())</span>
+                <span class="method-start">363896 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">vincularSubProjeto</span>
+                <span class="method-start">370400 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=vincularSubProjeto status=SUCCESS method=GerenciarTests.vincularSubProjeto()[pri:0,...)</span>
+                <span class="method-start">374604 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.GerenciarTests.desabilitarProjeto())</span>
+                <span class="method-start">375259 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">desabilitarProjeto</span>
+                <span class="method-start">381498 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=desabilitarProjeto status=SUCCESS method=GerenciarTests.desabilitarProjeto()[pri:0,...)</span>
+                <span class="method-start">386403 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.GerenciarTests.cadastrarProjetoNomeJaExistente())</span>
+                <span class="method-start">387120 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cadastrarProjetoNomeJaExistente</span>
+                <span class="method-start">393663 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=cadastrarProjetoNomeJaExistente status=SUCCESS method=GerenciarTests.cadastrarProje...)</span>
+                <span class="method-start">397957 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.GerenciarTests.editarNomeMarcador())</span>
+                <span class="method-start">398683 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editarNomeMarcador</span>
+                <span class="method-start">405081 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=editarNomeMarcador status=SUCCESS method=GerenciarTests.editarNomeMarcador()[pri:0,...)</span>
+                <span class="method-start">409147 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.GerenciarTests.cadastrarNomeMarcadorJaExistente())</span>
+                <span class="method-start">409776 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">cadastrarNomeMarcadorJaExistente</span>
+                <span class="method-start">415989 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=cadastrarNomeMarcadorJaExistente status=SUCCESS method=GerenciarTests.cadastrarNome...)</span>
+                <span class="method-start">420478 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.GerenciarTests.editarDescricaoMarcador())</span>
+                <span class="method-start">421123 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">editarDescricaoMarcador</span>
+                <span class="method-start">427158 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=editarDescricaoMarcador status=SUCCESS method=GerenciarTests.editarDescricaoMarcado...)</span>
+                <span class="method-start">431848 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.GerenciarTests.criarNovoMarcador())</span>
+                <span class="method-start">432641 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">criarNovoMarcador</span>
+                <span class="method-start">438707 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=criarNovoMarcador status=SUCCESS method=GerenciarTests.criarNovoMarcador()[pri:0, i...)</span>
+                <span class="method-start">442897 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.seleniumMantis.tests.LoginTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.LoginTests.loginSucesso())</span>
+                <span class="method-start">443538 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginSucesso</span>
+                <span class="method-start">449929 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=loginSucesso status=SUCCESS method=LoginTests.loginSucesso()[pri:0, instance:com.se...)</span>
+                <span class="method-start">451840 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.LoginTests.loginUsuarioSenhaIncorretos())</span>
+                <span class="method-start">453161 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginUsuarioSenhaIncorretos</span>
+                <span class="method-start">459495 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=loginUsuarioSenhaIncorretos status=SUCCESS method=LoginTests.loginUsuarioSenhaIncor...)</span>
+                <span class="method-start">460647 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.LoginTests.loginSenhaIncorreta())</span>
+                <span class="method-start">461323 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginSenhaIncorreta</span>
+                <span class="method-start">467669 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=loginSenhaIncorreta status=SUCCESS method=LoginTests.loginSenhaIncorreta()[pri:0, i...)</span>
+                <span class="method-start">468957 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.LoginTests.loginUsuarioDesativado())</span>
+                <span class="method-start">469800 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginUsuarioDesativado</span>
+                <span class="method-start">476136 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=loginUsuarioDesativado status=SUCCESS method=LoginTests.loginUsuarioDesativado()[pr...)</span>
+                <span class="method-start">477472 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.LoginTests.loginUtilizandoJavaScritp())</span>
+                <span class="method-start">478114 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginUtilizandoJavaScritp</span>
+                <span class="method-start">484336 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=loginUtilizandoJavaScritp status=SUCCESS method=LoginTests.loginUtilizandoJavaScrit...)</span>
+                <span class="method-start">486152 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.LoginTests.loginUtilizandoDataDriven(java.lang.String,java.lang...)</span>
+                <span class="method-start">487541 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginUtilizandoDataDriven(administrator, administrator, al1)</span>
+                <span class="method-start">493441 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=loginUtilizandoDataDriven status=SUCCESS method=LoginTests.loginUtilizandoDataDrive...)</span>
+                <span class="method-start">495372 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.LoginTests.loginUtilizandoDataDriven(java.lang.String,java.lang...)</span>
+                <span class="method-start">496019 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginUtilizandoDataDriven(luana.assis, 123456, al2)</span>
+                <span class="method-start">502052 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=loginUtilizandoDataDriven status=SUCCESS method=LoginTests.loginUtilizandoDataDrive...)</span>
+                <span class="method-start">504395 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.seleniumMantis.tests.ProjetoTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.ProjetoTests.verificaProjetoExistente())</span>
+                <span class="method-start">505071 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verificaProjetoExistente</span>
+                <span class="method-start">511434 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=verificaProjetoExistente status=SUCCESS method=ProjetoTests.verificaProjetoExistent...)</span>
+                <span class="method-start">515369 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.ProjetoTests.verificaSelecaoProjetoExistente())</span>
+                <span class="method-start">516191 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verificaSelecaoProjetoExistente</span>
+                <span class="method-start">522495 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=verificaSelecaoProjetoExistente status=SUCCESS method=ProjetoTests.verificaSelecaoP...)</span>
+                <span class="method-start">526106 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.seleniumMantis.tests.TarefasTests</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.TarefasTests.criaTarefaSucesso())</span>
+                <span class="method-start">526762 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">criaTarefaSucesso</span>
+                <span class="method-start">532946 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=criaTarefaSucesso status=SUCCESS method=TarefasTests.criaTarefaSucesso()[pri:0, ins...)</span>
+                <span class="method-start">542548 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.TarefasTests.verificaTarefaCriadaEmMinhaVisao())</span>
+                <span class="method-start">543196 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verificaTarefaCriadaEmMinhaVisao</span>
+                <span class="method-start">549842 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=verificaTarefaCriadaEmMinhaVisao status=SUCCESS method=TarefasTests.verificaTarefaC...)</span>
+                <span class="method-start">557901 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.TarefasTests.verificaFiltroTarefa())</span>
+                <span class="method-start">558581 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verificaFiltroTarefa</span>
+                <span class="method-start">564995 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=verificaFiltroTarefa status=SUCCESS method=TarefasTests.verificaFiltroTarefa()[pri:...)</span>
+                <span class="method-start">573483 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.TarefasTests.adicionaMarcadorTarefa())</span>
+                <span class="method-start">574183 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">adicionaMarcadorTarefa</span>
+                <span class="method-start">580189 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=adicionaMarcadorTarefa status=SUCCESS method=TarefasTests.adicionaMarcadorTarefa()[...)</span>
+                <span class="method-start">588777 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.TarefasTests.removeMarcadorTarefa())</span>
+                <span class="method-start">589421 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">removeMarcadorTarefa</span>
+                <span class="method-start">595727 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=removeMarcadorTarefa status=SUCCESS method=TarefasTests.removeMarcadorTarefa()[pri:...)</span>
+                <span class="method-start">605399 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.TarefasTests.adicionaRelacaoInvalida())</span>
+                <span class="method-start">606058 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">adicionaRelacaoInvalida</span>
+                <span class="method-start">612211 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=adicionaRelacaoInvalida status=SUCCESS method=TarefasTests.adicionaRelacaoInvalida(...)</span>
+                <span class="method-start">620770 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.TarefasTests.adicionaRelacaoSucesso())</span>
+                <span class="method-start">621455 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">adicionaRelacaoSucesso</span>
+                <span class="method-start">627766 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=adicionaRelacaoSucesso status=SUCCESS method=TarefasTests.adicionaRelacaoSucesso()[...)</span>
+                <span class="method-start">637328 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.TarefasTests.adicionaRelacaoPaiSucesso())</span>
+                <span class="method-start">638007 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">adicionaRelacaoPaiSucesso</span>
+                <span class="method-start">644177 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=adicionaRelacaoPaiSucesso status=SUCCESS method=TarefasTests.adicionaRelacaoPaiSuce...)</span>
+                <span class="method-start">652805 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.TarefasTests.adicionaRelacaoFilhoSucesso())</span>
+                <span class="method-start">653455 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">adicionaRelacaoFilhoSucesso</span>
+                <span class="method-start">659450 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=adicionaRelacaoFilhoSucesso status=SUCCESS method=TarefasTests.adicionaRelacaoFilho...)</span>
+                <span class="method-start">668806 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.TarefasTests.adicionaRelacaoDuplicadaSucesso())</span>
+                <span class="method-start">669462 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">adicionaRelacaoDuplicadaSucesso</span>
+                <span class="method-start">675479 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=adicionaRelacaoDuplicadaSucesso status=SUCCESS method=TarefasTests.adicionaRelacaoD...)</span>
+                <span class="method-start">684274 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.TarefasTests.adicionaRelacaoPossuiDuplicidadeSucesso())</span>
+                <span class="method-start">685285 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">adicionaRelacaoPossuiDuplicidadeSucesso</span>
+                <span class="method-start">691652 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=adicionaRelacaoPossuiDuplicidadeSucesso status=SUCCESS method=TarefasTests.adiciona...)</span>
+                <span class="method-start">701023 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.TarefasTests.atribuiTarefaUsuario())</span>
+                <span class="method-start">701679 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">atribuiTarefaUsuario</span>
+                <span class="method-start">707853 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=atribuiTarefaUsuario status=SUCCESS method=TarefasTests.atribuiTarefaUsuario()[pri:...)</span>
+                <span class="method-start">717838 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.TarefasTests.tentaResolverTarefaComStatusNovo())</span>
+                <span class="method-start">718598 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tentaResolverTarefaComStatusNovo</span>
+                <span class="method-start">724653 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=tentaResolverTarefaComStatusNovo status=SUCCESS method=TarefasTests.tentaResolverTa...)</span>
+                <span class="method-start">733526 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.TarefasTests.tentaResolverTarefaSucesso())</span>
+                <span class="method-start">734170 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">tentaResolverTarefaSucesso</span>
+                <span class="method-start">740569 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=tentaResolverTarefaSucesso status=SUCCESS method=TarefasTests.tentaResolverTarefaSu...)</span>
+                <span class="method-start">749684 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeTest(public void com.seleniumMantis.tests.TarefasTests.alteraPrioridadeTarefa())</span>
+                <span class="method-start">750342 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">alteraPrioridadeTarefa</span>
+                <span class="method-start">756537 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterTest([TestResult name=alteraPrioridadeTarefa status=SUCCESS method=TarefasTests.alteraPrioridadeTarefa()[...)</span>
+                <span class="method-start">765564 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.seleniumMantis.tests.GerenciarTests</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">766350 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

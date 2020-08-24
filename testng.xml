@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/Base2/Desktop/Ole/mantisJavaTemplate/src/test/java/com/seleniumMantis/tests">
+        <classes>
+            <class name="com.seleniumMantis.tests.GerenciarTests">
+                <methods>
+                    <include name="verificaTrocaPerfilAdministrador"/>
+                    <include name="inativaUsuario"/>
+                    <include name="verificaTrocaPerfilGerente"/>
+                    <include name="verificaTrocaPerfilDesenvolvedor"/>
+                    <include name="verificaTrocaPerfilAtualizador"/>
+                    <include name="verificaTrocaPerfilRelator"/>
+                    <include name="verificaTrocaPerfilVisualizador"/>
+                    <include name="verificaAlteracaoEmailUsuario"/>
+                    <include name="apagaUsuario"/>
+                    <include name="alteraNomeUsuario"/>
+                    <include name="alteraNomeRealUsuario"/>
+                    <include name="criaNovoUsuario"/>
+                    <include name="criaUsuarioNomeJaCadastrado"/>
+                    <include name="criaUsuarioEmailJaCadastrado"/>
+                    <include name="editarStadoParaRelease"/>
+                    <include name="editarStadoParaEstavel"/>
+                    <include name="editarStadoParaObsoleto"/>
+                    <include name="criarNovoProjeto"/>
+                    <include name="alterarVisibilidadePrivado"/>
+                    <include name="alterarVisibilidadePublico"/>
+                    <include name="vincularSubProjeto"/>
+                    <include name="desabilitarProjeto"/>
+                    <include name="cadastrarProjetoNomeJaExistente"/>
+                    <include name="editarNomeMarcador"/>
+                    <include name="cadastrarNomeMarcadorJaExistente"/>
+                    <include name="editarDescricaoMarcador"/>
+                    <include name="criarNovoMarcador"/>
+                </methods>
+            </class>
+            <class name="com.seleniumMantis.tests.LoginTests">
+                <methods>
+                    <include name="loginSucesso"/>
+                    <include name="loginUsuarioSenhaIncorretos"/>
+                    <include name="loginSenhaIncorreta"/>
+                    <include name="loginUsuarioDesativado"/>
+                    <include name="loginUtilizandoJavaScritp"/>
+                    <include name="loginUtilizandoDataDriven"/>
+                </methods>
+            </class>
+            <class name="com.seleniumMantis.tests.ProjetoTests">
+                <methods>
+                    <include name="verificaProjetoExistente"/>
+                    <include name="verificaSelecaoProjetoExistente"/>
+                </methods>
+            </class>
+            <class name="com.seleniumMantis.tests.TarefasTests">
+                <methods>
+                    <include name="criaTarefaSucesso"/>
+                    <include name="verificaTarefaCriadaEmMinhaVisao"/>
+                    <include name="verificaFiltroTarefa"/>
+                    <include name="adicionaMarcadorTarefa"/>
+                    <include name="removeMarcadorTarefa"/>
+                    <include name="adicionaRelacaoInvalida"/>
+                    <include name="adicionaRelacaoSucesso"/>
+                    <include name="adicionaRelacaoPaiSucesso"/>
+                    <include name="adicionaRelacaoFilhoSucesso"/>
+                    <include name="adicionaRelacaoDuplicadaSucesso"/>
+                    <include name="adicionaRelacaoPossuiDuplicidadeSucesso"/>
+                    <include name="atribuiTarefaUsuario"/>
+                    <include name="tentaResolverTarefaComStatusNovo"/>
+                    <include name="tentaResolverTarefaSucesso"/>
+                    <include name="alteraPrioridadeTarefa"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

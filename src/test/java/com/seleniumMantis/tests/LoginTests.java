@@ -1,6 +1,5 @@
     package com.seleniumMantis.tests;
 
-    import com.sun.org.glassfish.gmbal.Description;
     import org.testng.Assert;
     import org.testng.annotations.DataProvider;
     import org.testng.annotations.Test;
@@ -16,7 +15,7 @@
 
         //Tests
         @Test
-        @Description("Realiza o login com suscesso")
+        //@Description("Realiza o login com suscesso")
         public void loginSucesso()
         {
             loginPage = new LoginPage();
@@ -33,7 +32,7 @@
         }
 
         @Test
-        @Description ("Realizar o login com usuario e senha incorretos")
+        //@Description ("Realizar o login com usuario e senha incorretos")
         public void loginUsuarioSenhaIncorretos()
         {
             loginPage = new LoginPage();
@@ -51,7 +50,7 @@
             Assert.assertEquals(msgErroLogin, msg);
         }
         @Test
-        @Description("Realizar o login com senha incorreta")
+        //@Description("Realizar o login com senha incorreta")
         public void loginSenhaIncorreta()
         {
             loginPage = new LoginPage();
@@ -70,7 +69,7 @@
         }
 
         @Test
-        @Description("Realizar teste com usuário desativado")
+        //@Description("Realizar teste com usuário desativado")
         public void loginUsuarioDesativado()
         {
             loginPage = new LoginPage();
@@ -89,7 +88,7 @@
         }
 
         @Test
-        @Description("Realiza login utilizando interação com javaScript")
+       // @Description("Realiza login utilizando interação com javaScript")
         public void loginUtilizandoJavaScritp()
         {
             loginPage = new LoginPage();
@@ -125,7 +124,7 @@
         public Object[][] testDataExample()
         {
 
-            ReadExcelFile configuration = new ReadExcelFile("C:\\Users\\Base2\\Desktop\\Ole\\mantisJavaTemplate\\src\\test\\resources\\testdata.xlsx");
+            ReadExcelFile configuration = new ReadExcelFile("C:\\Users\\Base2\\Desktop\\Ole\\mantisJavaTemplate\\templateJava\\src\\test\\resources\\testdata.xlsx");
             int rows = configuration.getRowCount(0);
 
             //2 é a quantidade de valores que será preenchido no for
