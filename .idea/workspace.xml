@@ -2,35 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="afa8f791-4a86-4682-906d-11a53c519619" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/chromedriver.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/mantisJavaTemplate.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/GlobalParameters.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/GlobalParameters.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/bases/PageBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/bases/PageBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/bases/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/bases/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/dbSteps/DataBaseSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/dbSteps/DataBaseSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/flows/LoginFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/flows/LoginFlow.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/page/GerenciarMarcadoresPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/page/GerenciarMarcadoresPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/page/GerenciarProjetoPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/page/GerenciarProjetoPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/page/GerenciarUsuarioPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/page/GerenciarUsuarioPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/page/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/page/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/page/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/page/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/page/MinhaVisaoPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/page/MinhaVisaoPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/page/TarefasPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/page/TarefasPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/page/VerTarefasPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/page/VerTarefasPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/tests/GerenciarTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/tests/GerenciarTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/tests/LoginTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/tests/LoginTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/tests/ProjetoTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/tests/ProjetoTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/tests/TarefasTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/tests/TarefasTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/tests/preTests/PreTestMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/tests/preTests/PreTestMethods.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/utils/Browsers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/utils/Browsers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/utils/DbUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/utils/DbUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/utils/DriverFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/utils/DriverFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/utils/ExtentReportUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/utils/ExtentReportUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/utils/ReadExcelFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/utils/ReadExcelFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/utils/Utils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/seleniumMantis/utils/Utils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/reports/JavaSeleniumTemplate_2020-08-24_16-45-36/JavaSeleniumTemplate_2020-08-24_16-45-36.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/C__Users_Base2_Desktop_Ole_mantisJavaTemplate_src_test_java_com_seleniumMantis_tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/C__Users_Base2_Desktop_Ole_mantisJavaTemplate_src_test_java_com_seleniumMantis_tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/C__Users_Base2_Desktop_Ole_mantisJavaTemplate_src_test_java_com_seleniumMantis_tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/All Test Suite/C__Users_Base2_Desktop_Ole_mantisJavaTemplate_src_test_java_com_seleniumMantis_tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.seleniumMantis.tests.GerenciarTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.seleniumMantis.tests.GerenciarTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.seleniumMantis.tests.LoginTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.seleniumMantis.tests.LoginTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.seleniumMantis.tests.ProjetoTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.seleniumMantis.tests.ProjetoTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.seleniumMantis.tests.TarefasTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.seleniumMantis.tests.TarefasTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/All Test Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LoginSuite">
+  <component name="RunManager" selected="TestNG.LoginTests.loginUtilizandoDataDriven (1)">
     <configuration name="Geral" type="TestNG">
       <module name="mantisJavaTemplate" />
       <option name="SUITE_NAME" value="" />
@@ -118,24 +107,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GerenciarTests.Test_verificaTrocaPerfilAdministrador" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mantisJavaTemplate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.seleniumMantis.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.seleniumMantis.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.seleniumMantis.tests.GerenciarTests" />
-      <option name="METHOD_NAME" value="Test_verificaTrocaPerfilAdministrador" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LoginSuite" type="TestNG">
       <module name="mantisJavaTemplate" />
       <option name="SUITE_NAME" value="" />
@@ -149,6 +120,77 @@
         <value defaultName="moduleWithDependencies" />
       </option>
       <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mantisJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.seleniumMantis.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.seleniumMantis.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.seleniumMantis.tests.LoginTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests.loginSucesso (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mantisJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.seleniumMantis.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.seleniumMantis.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.seleniumMantis.tests.LoginTests" />
+      <option name="METHOD_NAME" value="loginSucesso" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests.loginSucesso" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mantisJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.seleniumMantis.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.seleniumMantis.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.seleniumMantis.tests.LoginTests" />
+      <option name="METHOD_NAME" value="loginSucesso" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests.loginUtilizandoDataDriven (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="mantisJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.seleniumMantis.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.seleniumMantis.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.seleniumMantis.tests.LoginTests" />
+      <option name="METHOD_NAME" value="loginUtilizandoDataDriven" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -216,79 +258,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TarefasTests.Test_adicionaRelacaoFilhoSucesso" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mantisJavaTemplate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.seleniumMantis.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.seleniumMantis.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.seleniumMantis.tests.TarefasTests" />
-      <option name="METHOD_NAME" value="Test_adicionaRelacaoFilhoSucesso" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TarefasTests.Test_adicionaRelacaoPaiSucesso" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mantisJavaTemplate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.seleniumMantis.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.seleniumMantis.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.seleniumMantis.tests.TarefasTests" />
-      <option name="METHOD_NAME" value="Test_adicionaRelacaoPaiSucesso" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TarefasTests.Test_adicionaRelacaoPossuiDuplicidadeSucesso" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="mantisJavaTemplate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.seleniumMantis.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.seleniumMantis.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.seleniumMantis.tests.TarefasTests" />
-      <option name="METHOD_NAME" value="Test_adicionaRelacaoPossuiDuplicidadeSucesso" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="TestNG.Geral" />
       <item itemvalue="TestNG.LoginSuite" />
       <item itemvalue="TestNG.ProjetoSuite" />
       <item itemvalue="TestNG.TarefasSuite" />
       <item itemvalue="TestNG.GerenciarSuite" />
-      <item itemvalue="TestNG.TarefasTests.Test_adicionaRelacaoPaiSucesso" />
-      <item itemvalue="TestNG.TarefasTests.Test_adicionaRelacaoPossuiDuplicidadeSucesso" />
-      <item itemvalue="TestNG.TarefasTests.Test_adicionaRelacaoFilhoSucesso" />
-      <item itemvalue="TestNG.GerenciarTests.Test_verificaTrocaPerfilAdministrador" />
       <item itemvalue="TestNG.LoginTests.loginUtilizandoDataDriven" />
+      <item itemvalue="TestNG.LoginTests.loginUtilizandoDataDriven (1)" />
+      <item itemvalue="TestNG.LoginTests" />
+      <item itemvalue="TestNG.LoginTests.loginSucesso" />
+      <item itemvalue="TestNG.LoginTests.loginSucesso (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTests.loginUtilizandoDataDriven (1)" />
+        <item itemvalue="TestNG.LoginTests.loginSucesso" />
+        <item itemvalue="TestNG.LoginTests.loginSucesso (1)" />
+        <item itemvalue="TestNG.LoginTests" />
         <item itemvalue="TestNG.LoginTests.loginUtilizandoDataDriven" />
-        <item itemvalue="TestNG.GerenciarTests.Test_verificaTrocaPerfilAdministrador" />
-        <item itemvalue="TestNG.TarefasTests.Test_adicionaRelacaoFilhoSucesso" />
-        <item itemvalue="TestNG.TarefasTests.Test_adicionaRelacaoPossuiDuplicidadeSucesso" />
-        <item itemvalue="TestNG.TarefasTests.Test_adicionaRelacaoPaiSucesso" />
       </list>
     </recent_temporary>
   </component>
@@ -340,32 +328,32 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java</url>
-          <line>96</line>
+          <line>97</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java</url>
-          <line>99</line>
+          <line>100</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java</url>
-          <line>126</line>
+          <line>127</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java</url>
-          <line>114</line>
+          <line>115</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java</url>
-          <line>115</line>
+          <line>116</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java</url>
-          <line>116</line>
+          <line>117</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -375,7 +363,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java</url>
-          <line>138</line>
+          <line>139</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -395,7 +383,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/seleniumMantis/tests/LoginTests.java</url>
-          <line>20</line>
+          <line>21</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

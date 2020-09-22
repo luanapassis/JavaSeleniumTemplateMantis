@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="400.934" tests="51" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="541.116" tests="51" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="mavenProject"/>
     <property name="localRepository" value="C:\WINDOWS\system32\config\systemprofile\.m2\repository"/>
-    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/mavenProject/7/display/redirect?page=tests"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/mavenProject/10/display/redirect?page=tests"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="NUMBER_OF_PROCESSORS" value="4"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -13,7 +13,7 @@
     <property name="POM_ARTIFACTID" value="mantisJava"/>
     <property name="os.name" value="Windows 10"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
     <property name="sun.desktop" value="windows"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
@@ -28,8 +28,8 @@
     <property name="ProgramFiles" value="C:\Program Files"/>
     <property name="user.language" value="pt"/>
     <property name="JOB_BASE_NAME" value="mavenProject"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/mavenProject/7/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#7"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/mavenProject/10/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#10"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
     <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
     <property name="java.version" value="1.8.0_241"/>
@@ -39,7 +39,7 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="NODE_NAME" value="master"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="7"/>
+    <property name="BUILD_ID" value="10"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -54,11 +54,11 @@
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_241\jre"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="10.0"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/mavenProject/7/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/mavenProject/10/display/redirect"/>
     <property name="POM_VERSION" value="1.0-SNAPSHOT"/>
     <property name="configsetroot" value="C:\WINDOWS\ConfigSetRoot"/>
     <property name="TMP" value="C:\WINDOWS\TEMP"/>
-    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/mavenProject/7/display/redirect?page=artifacts"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/mavenProject/10/display/redirect?page=artifacts"/>
     <property name="path.separator" value=";"/>
     <property name="java.vm.version" value="25.241-b07"/>
     <property name="user.variant" value=""/>
@@ -77,7 +77,7 @@
     <property name="POM_GROUPID" value="br.com.template.mantisJava"/>
     <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-mavenProject-7"/>
+    <property name="BUILD_TAG" value="jenkins-mavenProject-10"/>
     <property name="JENKINS_SERVER_COOKIE" value="b0dad6a825c29315"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -85,15 +85,15 @@
     <property name="USERPROFILE" value="C:\WINDOWS\system32\config\systemprofile"/>
     <property name="CLASSPATH" value=""/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Base2\Desktop\Ole\mantisJavaTemplate\apache-maven-3.6.3/bin;C:\Program Files\Java\jdk1.8.0_241/bin;C:\Program Files\Java\jdk1.8.0_241/bin;C:\Python38\Scripts\;C:\Python38\;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Users\Base2\AppData\Local\Android\Sdk\platform-tools;C:\Users\Base2\AppData\Local\Android\Sdk\tools;C:\Users\Base2\AppData\Local\Android\Sdk\tools\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\Base2\AppData\Local\Android\Sdk\platforms;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Users\Base2\AppData\Local\Android\Sdk\emulator;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\WINDOWS\system32\config\systemprofile\.dotnet\tools;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Base2\Desktop\Ole\mantisJavaTemplate\apache-maven-3.6.3/bin;C:\Program Files\Java\jdk1.8.0_241/bin;C:\Program Files\Java\jdk1.8.0_241/bin;C:\Python38\Scripts\;C:\Python38\;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Users\Base2\AppData\Local\Android\Sdk\platform-tools;C:\Users\Base2\AppData\Local\Android\Sdk\tools;C:\Users\Base2\AppData\Local\Android\Sdk\tools\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\Base2\AppData\Local\Android\Sdk\platforms;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Users\Base2\AppData\Local\Android\Sdk\emulator;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Users\Base2\Desktop\Ole\mantisJavaTemplate\apache-maven-3.6.3\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\WINDOWS\system32\config\systemprofile\.dotnet\tools;."/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="APPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\Users\Base2\Desktop\Ole\mantisJavaTemplate\apache-maven-3.6.3"/>
     <property name="java.class.path" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Users\Base2\Desktop\Ole\mantisJavaTemplate\apache-maven-3.6.3\boot\plexus-classworlds-2.6.0.jar;C:\Users\Base2\Desktop\Ole\mantisJavaTemplate\apache-maven-3.6.3/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\Base2\Desktop\Ole\mantisJavaTemplate\apache-maven-3.6.3 C:\Windows\System32\config\systemprofile\AppData\Local\Jenkinswar\WEB-INF\lib\remoting-4.3.jar C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 53535"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Users\Base2\Desktop\Ole\mantisJavaTemplate\apache-maven-3.6.3 C:\Windows\System32\config\systemprofile\AppData\Local\Jenkinswar\WEB-INF\lib\remoting-4.3.jar C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 52488"/>
     <property name="MOZ_DISABLE_CONTENT_SANDBOX" value="1"/>
-    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_241/bin;C:\Python38\Scripts\;C:\Python38\;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Users\Base2\AppData\Local\Android\Sdk\platform-tools;C:\Users\Base2\AppData\Local\Android\Sdk\tools;C:\Users\Base2\AppData\Local\Android\Sdk\tools\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\Base2\AppData\Local\Android\Sdk\platforms;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Users\Base2\AppData\Local\Android\Sdk\emulator;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\WINDOWS\system32\config\systemprofile\.dotnet\tools"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_241/bin;C:\Python38\Scripts\;C:\Python38\;C:\Python27\;C:\Python27\Scripts;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Users\Base2\AppData\Local\Android\Sdk\platform-tools;C:\Users\Base2\AppData\Local\Android\Sdk\tools;C:\Users\Base2\AppData\Local\Android\Sdk\tools\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\Base2\AppData\Local\Android\Sdk\platforms;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Users\Base2\AppData\Local\Android\Sdk\emulator;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\dotnet\;C:\Users\Base2\Desktop\Ole\mantisJavaTemplate\apache-maven-3.6.3\bin;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\WINDOWS\system32\config\systemprofile\.dotnet\tools"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
     <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_241/bin"/>
@@ -108,7 +108,7 @@
     <property name="HUDSON_HOME" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local\Jenkins.jenkins"/>
     <property name="PATH+MAVEN" value="C:\Users\Base2\Desktop\Ole\mantisJavaTemplate\apache-maven-3.6.3/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/mavenProject/7/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/mavenProject/10/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
@@ -120,7 +120,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="MAVEN_HOME" value="C:\Users\Base2\Desktop\Ole\mantisJavaTemplate\apache-maven-3.6.3"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="7"/>
+    <property name="BUILD_NUMBER" value="10"/>
     <property name="BASE" value="C:\Program Files\Jenkins"/>
     <property name="ANDROID_HOME" value="C:\Users\Base2\AppData\Local\Android\Sdk"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
@@ -141,55 +141,55 @@
     <property name="PSModulePath" value="C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules"/>
     <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
   </properties>
-  <testcase name="verificaTrocaPerfilAdministrador" classname="com.seleniumMantis.tests.GerenciarTests" time="6.12"/>
-  <testcase name="inativaUsuario" classname="com.seleniumMantis.tests.GerenciarTests" time="4.347"/>
-  <testcase name="verificaTrocaPerfilGerente" classname="com.seleniumMantis.tests.GerenciarTests" time="4.922"/>
-  <testcase name="verificaTrocaPerfilDesenvolvedor" classname="com.seleniumMantis.tests.GerenciarTests" time="5.351"/>
-  <testcase name="verificaTrocaPerfilAtualizador" classname="com.seleniumMantis.tests.GerenciarTests" time="5.9"/>
-  <testcase name="verificaTrocaPerfilRelator" classname="com.seleniumMantis.tests.GerenciarTests" time="4.906"/>
-  <testcase name="verificaTrocaPerfilVisualizador" classname="com.seleniumMantis.tests.GerenciarTests" time="4.291"/>
-  <testcase name="verificaAlteracaoEmailUsuario" classname="com.seleniumMantis.tests.GerenciarTests" time="5.475"/>
-  <testcase name="apagaUsuario" classname="com.seleniumMantis.tests.GerenciarTests" time="5.362"/>
-  <testcase name="alteraNomeUsuario" classname="com.seleniumMantis.tests.GerenciarTests" time="5.202"/>
-  <testcase name="alteraNomeRealUsuario" classname="com.seleniumMantis.tests.GerenciarTests" time="5.131"/>
-  <testcase name="criaNovoUsuario" classname="com.seleniumMantis.tests.GerenciarTests" time="124.37"/>
-  <testcase name="criaUsuarioNomeJaCadastrado" classname="com.seleniumMantis.tests.GerenciarTests" time="4.59"/>
-  <testcase name="criaUsuarioEmailJaCadastrado" classname="com.seleniumMantis.tests.GerenciarTests" time="4.429"/>
-  <testcase name="editarStadoParaRelease" classname="com.seleniumMantis.tests.GerenciarTests" time="4.816"/>
-  <testcase name="editarStadoParaEstavel" classname="com.seleniumMantis.tests.GerenciarTests" time="4.121"/>
-  <testcase name="editarStadoParaObsoleto" classname="com.seleniumMantis.tests.GerenciarTests" time="4.137"/>
-  <testcase name="criarNovoProjeto" classname="com.seleniumMantis.tests.GerenciarTests" time="5.748"/>
-  <testcase name="alterarVisibilidadePrivado" classname="com.seleniumMantis.tests.GerenciarTests" time="4.165"/>
-  <testcase name="alterarVisibilidadePublico" classname="com.seleniumMantis.tests.GerenciarTests" time="4.059"/>
-  <testcase name="vincularSubProjeto" classname="com.seleniumMantis.tests.GerenciarTests" time="4.204"/>
-  <testcase name="desabilitarProjeto" classname="com.seleniumMantis.tests.GerenciarTests" time="4.905"/>
-  <testcase name="cadastrarProjetoNomeJaExistente" classname="com.seleniumMantis.tests.GerenciarTests" time="4.294"/>
-  <testcase name="editarNomeMarcador" classname="com.seleniumMantis.tests.GerenciarTests" time="4.065"/>
-  <testcase name="cadastrarNomeMarcadorJaExistente" classname="com.seleniumMantis.tests.GerenciarTests" time="4.489"/>
-  <testcase name="editarDescricaoMarcador" classname="com.seleniumMantis.tests.GerenciarTests" time="4.69"/>
-  <testcase name="criarNovoMarcador" classname="com.seleniumMantis.tests.GerenciarTests" time="4.19"/>
-  <testcase name="loginSucesso" classname="com.seleniumMantis.tests.LoginTests" time="1.911"/>
-  <testcase name="loginUsuarioSenhaIncorretos" classname="com.seleniumMantis.tests.LoginTests" time="1.152"/>
-  <testcase name="loginSenhaIncorreta" classname="com.seleniumMantis.tests.LoginTests" time="1.288"/>
-  <testcase name="loginUsuarioDesativado" classname="com.seleniumMantis.tests.LoginTests" time="1.336"/>
-  <testcase name="loginUtilizandoJavaScritp" classname="com.seleniumMantis.tests.LoginTests" time="1.816"/>
-  <testcase name="loginUtilizandoDataDriven" classname="com.seleniumMantis.tests.LoginTests" time="1.931"/>
-  <testcase name="loginUtilizandoDataDriven" classname="com.seleniumMantis.tests.LoginTests" time="2.343"/>
-  <testcase name="verificaProjetoExistente" classname="com.seleniumMantis.tests.ProjetoTests" time="3.935"/>
-  <testcase name="verificaSelecaoProjetoExistente" classname="com.seleniumMantis.tests.ProjetoTests" time="3.611"/>
-  <testcase name="criaTarefaSucesso" classname="com.seleniumMantis.tests.TarefasTests" time="9.602"/>
-  <testcase name="verificaTarefaCriadaEmMinhaVisao" classname="com.seleniumMantis.tests.TarefasTests" time="8.059"/>
-  <testcase name="verificaFiltroTarefa" classname="com.seleniumMantis.tests.TarefasTests" time="8.488"/>
-  <testcase name="adicionaMarcadorTarefa" classname="com.seleniumMantis.tests.TarefasTests" time="8.587"/>
-  <testcase name="removeMarcadorTarefa" classname="com.seleniumMantis.tests.TarefasTests" time="9.671"/>
-  <testcase name="adicionaRelacaoInvalida" classname="com.seleniumMantis.tests.TarefasTests" time="8.559"/>
-  <testcase name="adicionaRelacaoSucesso" classname="com.seleniumMantis.tests.TarefasTests" time="9.562"/>
-  <testcase name="adicionaRelacaoPaiSucesso" classname="com.seleniumMantis.tests.TarefasTests" time="8.627"/>
-  <testcase name="adicionaRelacaoFilhoSucesso" classname="com.seleniumMantis.tests.TarefasTests" time="9.356"/>
-  <testcase name="adicionaRelacaoDuplicadaSucesso" classname="com.seleniumMantis.tests.TarefasTests" time="8.794"/>
-  <testcase name="adicionaRelacaoPossuiDuplicidadeSucesso" classname="com.seleniumMantis.tests.TarefasTests" time="9.371"/>
-  <testcase name="atribuiTarefaUsuario" classname="com.seleniumMantis.tests.TarefasTests" time="9.985"/>
-  <testcase name="tentaResolverTarefaComStatusNovo" classname="com.seleniumMantis.tests.TarefasTests" time="8.873"/>
-  <testcase name="tentaResolverTarefaSucesso" classname="com.seleniumMantis.tests.TarefasTests" time="9.115"/>
-  <testcase name="alteraPrioridadeTarefa" classname="com.seleniumMantis.tests.TarefasTests" time="9.026"/>
+  <testcase name="verificaTrocaPerfilAdministrador" classname="com.seleniumMantis.tests.GerenciarTests" time="11.311"/>
+  <testcase name="inativaUsuario" classname="com.seleniumMantis.tests.GerenciarTests" time="7.408"/>
+  <testcase name="verificaTrocaPerfilGerente" classname="com.seleniumMantis.tests.GerenciarTests" time="6.692"/>
+  <testcase name="verificaTrocaPerfilDesenvolvedor" classname="com.seleniumMantis.tests.GerenciarTests" time="7.585"/>
+  <testcase name="verificaTrocaPerfilAtualizador" classname="com.seleniumMantis.tests.GerenciarTests" time="11.263"/>
+  <testcase name="verificaTrocaPerfilRelator" classname="com.seleniumMantis.tests.GerenciarTests" time="11.264"/>
+  <testcase name="verificaTrocaPerfilVisualizador" classname="com.seleniumMantis.tests.GerenciarTests" time="8.04"/>
+  <testcase name="verificaAlteracaoEmailUsuario" classname="com.seleniumMantis.tests.GerenciarTests" time="8.827"/>
+  <testcase name="apagaUsuario" classname="com.seleniumMantis.tests.GerenciarTests" time="8.568"/>
+  <testcase name="alteraNomeUsuario" classname="com.seleniumMantis.tests.GerenciarTests" time="9.669"/>
+  <testcase name="alteraNomeRealUsuario" classname="com.seleniumMantis.tests.GerenciarTests" time="7.902"/>
+  <testcase name="criaNovoUsuario" classname="com.seleniumMantis.tests.GerenciarTests" time="127.927"/>
+  <testcase name="criaUsuarioNomeJaCadastrado" classname="com.seleniumMantis.tests.GerenciarTests" time="8.158"/>
+  <testcase name="criaUsuarioEmailJaCadastrado" classname="com.seleniumMantis.tests.GerenciarTests" time="7.089"/>
+  <testcase name="editarStadoParaRelease" classname="com.seleniumMantis.tests.GerenciarTests" time="8.509"/>
+  <testcase name="editarStadoParaEstavel" classname="com.seleniumMantis.tests.GerenciarTests" time="5.555"/>
+  <testcase name="editarStadoParaObsoleto" classname="com.seleniumMantis.tests.GerenciarTests" time="6.166"/>
+  <testcase name="criarNovoProjeto" classname="com.seleniumMantis.tests.GerenciarTests" time="8.236"/>
+  <testcase name="alterarVisibilidadePrivado" classname="com.seleniumMantis.tests.GerenciarTests" time="6.743"/>
+  <testcase name="alterarVisibilidadePublico" classname="com.seleniumMantis.tests.GerenciarTests" time="6.19"/>
+  <testcase name="vincularSubProjeto" classname="com.seleniumMantis.tests.GerenciarTests" time="5.589"/>
+  <testcase name="desabilitarProjeto" classname="com.seleniumMantis.tests.GerenciarTests" time="6.002"/>
+  <testcase name="cadastrarProjetoNomeJaExistente" classname="com.seleniumMantis.tests.GerenciarTests" time="6.785"/>
+  <testcase name="editarNomeMarcador" classname="com.seleniumMantis.tests.GerenciarTests" time="7.196"/>
+  <testcase name="cadastrarNomeMarcadorJaExistente" classname="com.seleniumMantis.tests.GerenciarTests" time="6.284"/>
+  <testcase name="editarDescricaoMarcador" classname="com.seleniumMantis.tests.GerenciarTests" time="6.655"/>
+  <testcase name="criarNovoMarcador" classname="com.seleniumMantis.tests.GerenciarTests" time="6.21"/>
+  <testcase name="loginSucesso" classname="com.seleniumMantis.tests.LoginTests" time="2.914"/>
+  <testcase name="loginUsuarioSenhaIncorretos" classname="com.seleniumMantis.tests.LoginTests" time="1.651"/>
+  <testcase name="loginSenhaIncorreta" classname="com.seleniumMantis.tests.LoginTests" time="16.81"/>
+  <testcase name="loginUsuarioDesativado" classname="com.seleniumMantis.tests.LoginTests" time="1.66"/>
+  <testcase name="loginUtilizandoJavaScritp" classname="com.seleniumMantis.tests.LoginTests" time="2.396"/>
+  <testcase name="loginUtilizandoDataDriven" classname="com.seleniumMantis.tests.LoginTests" time="2.796"/>
+  <testcase name="loginUtilizandoDataDriven" classname="com.seleniumMantis.tests.LoginTests" time="2.673"/>
+  <testcase name="verificaProjetoExistente" classname="com.seleniumMantis.tests.ProjetoTests" time="3.341"/>
+  <testcase name="verificaSelecaoProjetoExistente" classname="com.seleniumMantis.tests.ProjetoTests" time="4.377"/>
+  <testcase name="criaTarefaSucesso" classname="com.seleniumMantis.tests.TarefasTests" time="12.051"/>
+  <testcase name="verificaTarefaCriadaEmMinhaVisao" classname="com.seleniumMantis.tests.TarefasTests" time="10.578"/>
+  <testcase name="verificaFiltroTarefa" classname="com.seleniumMantis.tests.TarefasTests" time="12.562"/>
+  <testcase name="adicionaMarcadorTarefa" classname="com.seleniumMantis.tests.TarefasTests" time="11.189"/>
+  <testcase name="removeMarcadorTarefa" classname="com.seleniumMantis.tests.TarefasTests" time="13.337"/>
+  <testcase name="adicionaRelacaoInvalida" classname="com.seleniumMantis.tests.TarefasTests" time="10.972"/>
+  <testcase name="adicionaRelacaoSucesso" classname="com.seleniumMantis.tests.TarefasTests" time="11.899"/>
+  <testcase name="adicionaRelacaoPaiSucesso" classname="com.seleniumMantis.tests.TarefasTests" time="10.814"/>
+  <testcase name="adicionaRelacaoFilhoSucesso" classname="com.seleniumMantis.tests.TarefasTests" time="11.611"/>
+  <testcase name="adicionaRelacaoDuplicadaSucesso" classname="com.seleniumMantis.tests.TarefasTests" time="11.765"/>
+  <testcase name="adicionaRelacaoPossuiDuplicidadeSucesso" classname="com.seleniumMantis.tests.TarefasTests" time="11.104"/>
+  <testcase name="atribuiTarefaUsuario" classname="com.seleniumMantis.tests.TarefasTests" time="11.738"/>
+  <testcase name="tentaResolverTarefaComStatusNovo" classname="com.seleniumMantis.tests.TarefasTests" time="11.264"/>
+  <testcase name="tentaResolverTarefaSucesso" classname="com.seleniumMantis.tests.TarefasTests" time="12.22"/>
+  <testcase name="alteraPrioridadeTarefa" classname="com.seleniumMantis.tests.TarefasTests" time="14.244"/>
 </testsuite>
